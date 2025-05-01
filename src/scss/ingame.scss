@@ -1,0 +1,36 @@
+#ingame {
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+.ingame-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-ingame {
+    border-radius: 16px;
+    width: 252px;
+    height: 457px;
+    background: #224a7d;
+}
+.arrow-left {
+    width: 16.32px;
+    height: 18.12px;
+}
+
+.arrow-right {
+    width: 24px;
+    height: 24px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.icon-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.revers-icon {
+    transform: rotate(180deg);
+}
