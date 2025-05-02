@@ -1,1 +1,15 @@
-
+.footer-wrapper {
+    padding: 25px 80px 25px 19px;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-items {
+    font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+        font-family: 'Lora', serif;
+        
+}
