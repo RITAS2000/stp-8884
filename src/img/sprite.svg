@@ -1,8 +1,5 @@
-<svg  xmlns="http://www.w3.org/2000/svg">
+<svg  xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-    <!-- <symbol id="arrow-left" viewBox="0 0 32 32">    
-  <path d="M16.3223 18.7608L10.2318 9.69963L16.3223 0.638428H13.338L7.24752 9.69963L13.338 18.7608H16.3223ZM9.07465 18.7608L2.98422 9.69963L9.07465 0.638428H6.09034L-8.7738e-05 9.69963L6.09034 18.7608H9.07465Z" fill="white" />
-    </symbol> -->
     <symbol id="arrow-left" viewBox="0 0 32 32" >
       <path d="M16.3223 18.7608L10.2318 9.69963L16.3223 0.638428H13.338L7.24752 9.69963L13.338 18.7608H16.3223ZM9.07465 18.7608L2.98422 9.69963L9.07465 0.638428H6.09034L-8.7738e-05 9.69963L6.09034 18.7608H9.07465Z" fill="white" />
     </symbol>
@@ -12,5 +9,6 @@
         <symbol id="icon-burger" viewBox="0 0 32 32">
             <path fill="#fff" d="M4 24v-2.667h16V24H4zm0-6.667v-2.667h24v2.667H4zm0-6.666V8h24v2.667H4z" style="fill:var(--color2, #fff)"/>
         </symbol>
-</defs>
+  </defs>
 </svg>
+
