@@ -2,35 +2,84 @@
     padding-top: 65px;
     padding-bottom: 40px;
 }
+.ingame-title {
+    font-family: "Cinzel", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 36px;
+}
 .ingame-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 31px 0 37px;
+    width: 320px;
 }
 .swiper-ingame {
+    position: relative;
     border-radius: 16px;
     width: 252px;
     height: 457px;
     background: #224a7d;
+    padding: 32px 16px 34px;
+}
+
+.elips-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    background: #214a7d; 
+    width: 252px;
+    height: 50px;
+    z-index: 10;
+}
+.elips-bottum {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 100%;
+    background: #214a7d; 
+    width: 252px;
+    height: 50px;
+    z-index: 10;
 }
 .arrow-left {
+    position: absolute;
+    top: 239px;
+    left:16px;
     width: 16.32px;
     height: 18.12px;
 }
 
 .arrow-right {
+    top:228px;
+    right: 9px;
+    position: absolute;
     width: 24px;
     height: 24px;
-    display: flex;
-   align-items: center;
-   justify-content: center;
+   
 }
-.icon-svg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
+
 .revers-icon {
     transform: rotate(180deg);
+}
+.img-container {
+    width: 220px;
+    height: 391px;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 16px 34px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }

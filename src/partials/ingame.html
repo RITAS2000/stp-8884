@@ -1,15 +1,73 @@
 <section id="ingame">
     <div class="container">
-        <h2>In-Game Preview</h2>
+        <h2 class="ingame-title">In-Game Preview</h2>
         <div class="ingame-container">
+
             <div class="arrow-left">
                 <svg width="24" height="24">
                     <use href="img/sprite.svg#arrow-left"></use>
                 </svg>
             </div>
-            <div class="swiper swiper-ingame"></div>
-            <div class="arrow-left"><svg width="24" height="24">
-                    <use href="../img/sprite.svg#arrow-right"></use>
+            <div class="swiper swiper-ingame">
+                <div class="elips-top"></div>
+                <div class="elips-bottum"></div>
+
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <picture class="img-container">
+                            <source media="(min-width: 1200px)" srcset="img/ingame/master1x1200.jpg 1x,
+                          img/ingame/master2x1200.jpg 2x
+                        ">
+                            <source media="(max-width: 1199px)" srcset="
+                          img/ingame/master1x320.jpg 1x,
+                          img/ingame/master2x320.jpg 2x
+                        ">
+                            <img src="img/ingame/master1x320.jpg" alt="Master devastating powers">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="img/ingame/grow1x1200.jpg 1x,
+                                          img/ingame/grow2x1200.jpg 2x
+                                        ">
+                            <source media="(max-width: 1199px)" srcset="
+                                          img/ingame/grow1x320.jpg 1x,
+                                          img/ingame/grow2x320.jpg 2x
+                                        ">
+                            <img src="img/ingame/grow1x320.jpg" alt="Grow with your heroes">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="img/ingame/rare1x1200.jpg 1x,
+                                          img/ingame/rare2x1200.jpg 2x
+                                        ">
+                            <source media="(max-width: 1199px)" srcset="
+                                          img/ingame/rare1x320.jpg 1x,
+                                          img/ingame/rare2x320.jpg 2x
+                                        ">
+                            <img src="img/ingame/rare1x320.jpg" alt="Hero card">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="img/ingame/choose1x1200.jpg 1x,
+                                          img/ingame/choose2x1200.jpg 2x
+                                        ">
+                            <source media="(max-width: 1199px)" srcset="
+                                          img/ingame/choose1x320.jpg 1x,
+                                          img/ingame/choose2x320.jpg 2x
+                                        ">
+                            <img src="img/ingame/choose1x320.jpg" alt="Choose your factions">
+                        </picture>
+                    </div>
+                </div>
+
+            </div>
+            <div class="arrow-right"><svg width="24" height="24" class="revers-icon">
+                    <use href="../img/sprite.svg#arrow-left"></use>
                 </svg></div>
         </div>
 
