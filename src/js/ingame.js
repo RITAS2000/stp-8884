@@ -7,7 +7,7 @@ Swiper.use([Navigation, Keyboard]);
 
 const swiper = new Swiper('.swiper-ingame', {
   slidesPerView: 1,
-  spaceBetween: 20, // або як тобі треба
+  spaceBetween: 24,
   keyboard: {
     enabled: true,
     onlyInViewport: true,
@@ -20,6 +20,13 @@ const swiper = new Swiper('.swiper-ingame', {
   breakpoints: {
     1200: {
       slidesPerView: 2.5,
+    },
+  },
+  on: {
+    init: function () {
+      document
+        .querySelector('.swiper-ingame')
+        ?.classList.remove('swiper-loading');
     },
   },
 });
