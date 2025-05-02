@@ -22,11 +22,4 @@ const swiper = new Swiper('.swiper-ingame', {
       slidesPerView: 2.5,
     },
   },
-  on: {
-    init: function () {
-      document
-        .querySelector('.swiper-ingame')
-        ?.classList.remove('swiper-loading');
-    },
-  },
 });
