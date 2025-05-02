@@ -1,0 +1,23 @@
+#videoPreview {
+    cursor: pointer;
+}
+.watch-title {
+    margin-top: 85px;
+    margin-bottom: 29px;
+    font-style: italic;
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+        font-family: 'Lora', serif;
+}
+
+.watch-wrapper {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.wrapperForTrailerImg {
+    margin-bottom: 65px;
+}

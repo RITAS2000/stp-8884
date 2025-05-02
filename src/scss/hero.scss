@@ -1,0 +1,42 @@
+
+.hero-wrapper {
+    padding: 0 68px 0 17px;
+}
+
+.hero{
+    background-image: url(../img/hero/bgDesctop1x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+@media  (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+        background-image: url(../img/hero/bgDesctop2x.jpg)
+    }
+}
+
+.hero-title {
+font-family: 'Cinzel', serif;
+   padding-top: 76px; 
+   margin-bottom: 8px;
+font-weight: 700;
+    font-size: 32px;
+    max-width: 230px;
+    color: white;
+}
+
+.hero-dscr {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: white;
+font-family: 'Lora', serif;
+}
+.little-the {
+font-size: 14px;
+color: white;
+}
+
+.wrapper-GooglePlay {
+    padding-bottom: 45px;
+}

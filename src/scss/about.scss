@@ -1,0 +1,66 @@
+.aboutTheGame-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 17px;
+    justify-content: center;
+    align-items: center;
+}
+.about-Title {
+    font-family: 'Cinzel', serif;
+    display: flex;
+    margin: 80px 0 36px;
+font-weight: 700;
+    font-size: 20px;
+        color: white;
+}
+.abotIMG {
+    margin-bottom: 14px;
+}
+.aboutDescription {
+    font-weight: 400;
+        font-size: 14px;
+        font-family: 'Lora', serif;
+        color: white;
+}
+
+.features-title {
+display: flex;
+justify-content: center;
+    margin: 80px 0 36px 0;
+    color: white;
+font-family: 'Cinzel', serif;
+}
+
+
+.features-wrapper {
+    padding: 0 17px;
+}
+
+.featuresList {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuresItems {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.featuresItems:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: left;
+}
+
+.features-IMG {
+    border-radius: 100px;
+}
+.featuresText {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+        font-size: 14px;
+    color: white;
+}

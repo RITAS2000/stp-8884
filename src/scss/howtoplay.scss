@@ -1,0 +1,51 @@
+.HTP-wrapper {
+    padding: 0 9px;
+}
+
+.HTP-title {
+    display: flex;
+    justify-content: center;
+     margin: 86px 0 34px 0;
+    font-family: 'Cinzel', serif;
+     color: white;
+}
+
+.HTP-list {
+    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center;
+}
+
+.svg-cloud {
+    position: absolute;
+}
+
+.HTP-items {
+    font-family: 'Uncial Antiqua', cursive;
+    background-image: url(/img/HowToPlay/cloud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
+.HTP-items:last-child {
+    position: relative;
+    left: 70px;
+}
+
+.HTP-text {
+    margin-top: 4px;
+    font-family: 'Lora', serif;
+    max-width: 100px;
+font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 18px;
+}
