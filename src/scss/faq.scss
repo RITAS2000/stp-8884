@@ -1,19 +1,130 @@
-.badges-list {
+#faq {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media screen and (min-width:1200px) {
+  #faq {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+}
+.faq-title-small {
+  font-family: "Cinzel", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.faq-title-big {
+  display: none;
+}
+@media screen and (min-width:1200px) {
+.faq-title-small {
+    display: none;
+  }
+    .faq-title-big {
+      display: block;
+      font-family: "Cinzel", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+.faq-items {
+  width: 291px;
+  margin: 0 14px 0 15px;  
+  
+}
+@media screen and (min-width:1200px) {
+.faq-items {
+    width: 840px;
+    margin: 0 180px;
+  }
+}
+li.faq-item {
+  width: 291px;
+  border-top: 2px solid #ffd700;
+  padding: 16px 10px 14px 10px;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+@media screen and (min-width:1200px) {
+  li.faq-item {
+      width: 840px;
+      padding: 16px 10px 20px 10px;
+    }
+}
+
+.faq-icon-down{
+  position: absolute;
+  top: -10px;
+  right: -9px;
+  transform: rotate(270deg);
+  width: 20px;
+  height: 22px;
+}
+@media screen and (min-width:1200px) {
+  .faq-icon-down {
+    width: 30px;
+    height: 34px;
+    }
+}
+.is-active .faq-icon-down {
+  transform: rotate(90deg);
+  top:0px;
+  right: 0px;
+}
+.faq-button {
+  position: relative;
+  background: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width:1200px) {
+  .faq-button {
+    width: 30px;
+    height: 30px;
+  }
+}
+.faq-title-container {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 32px;
+  justify-content: space-between;
 }
-.badges-link {
-  display: block;
-  padding: 8px 16px;
-  border: 1px solid;
-  border-radius: 8px;
-  transition: 200ms ease-in;
+
+ .faq-text {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #000;
+  padding: 10px 9px 19px 9px;
+  background: #A2D5F2;
 }
-.badges-link:hover,
-.badges-link:focus {
-  transform: scale(1.06);
-  color: #747bff;
+@media screen and (min-width:1200px) {
+  .faq-text {
+      font-size: 20px;
+      padding: 22px 10px 26px 10px;
+    
+    }
+  }
+
+.faq-title {
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width:1200px) {
+.faq-title {
+    font-size: 24px;
+    margin-bottom: 23px;
+  }
 }
