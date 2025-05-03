@@ -1,0 +1,103 @@
+
+.termsSection {
+    background-color: rgba(162, 213, 242, 1);
+}
+
+ol {
+    margin: 0;
+    padding: 0 16px;
+    
+}
+
+.headOfTerms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 54px;
+}
+
+.terms-wrapper {
+    padding: 24px 16px;
+}
+
+.linkInTerms {
+    font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        font-family: 'Lora', serif;
+}
+
+.termsTitle {
+    font-weight: 700;
+        font-size: 20px;
+        color: #000;
+        font-family: 'Cinzel', serif;
+        margin-bottom: 20px;
+}
+
+.termsText {
+    font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        font-family: 'Lora', serif;
+        margin-bottom: 20px;
+}
+
+.termsList {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+        font-size: 20px;
+        color: #000;
+        font-family: 'Cinzel', serif;
+        gap: 20px;
+}
+
+.textInItems-terms {
+    margin-top: 20px;
+    font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        font-family: 'Lora', serif;
+}
+
+.textSpan {
+    font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        font-family: 'Lora', serif;
+}
+
+.listInList-terms {
+    margin-top: 20px;
+    list-style-type: disc;
+    margin-left: 16px;
+}
+
+.mailtoTerms {
+    display: flex;
+    margin-top: 10px;
+    font-weight: 400;
+        font-size: 14px;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #000;
+            font-family: 'Lora', serif;
+}
+
+.linkInPolicy-terms {
+    display: flex;
+font-weight: 400;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #000;
+    margin-top: 10px;
+    font-family: 'Lora', serif;
+}
+
+.termsItems p:last-of-type {
+    margin-top: 10px;
+    padding-left: 0;
+}

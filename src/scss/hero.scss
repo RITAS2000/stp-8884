@@ -1,15 +1,17 @@
 
-.hero-wrapper {
+.hero {
+    margin: 0 auto;
     padding: 0 68px 0 17px;
         background-image: url(../img/hero/bgDesctop1x.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            max-width: 320px;
 }
 
 
 @media  (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .hero-wrapper {
+    .hero {
         background-image: url(../img/hero/bgDesctop2x.jpg)
     }
 }

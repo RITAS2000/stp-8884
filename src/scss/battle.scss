@@ -1,0 +1,220 @@
+#battle {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+@media screen and (min-width:1200px) {
+    #battle {
+            padding-top: 60px;
+            padding-bottom: 124px;
+        }
+}
+.battle-title {
+    font-family: "Cinzel", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 14px;
+}
+@media screen and (min-width:1200px) {
+.battle-title {
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+}
+.battle-text {
+    font-family: "Cinzel", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #f5f5f5;
+    margin: 0 16px 27px 16px;
+    width: 288px;
+}
+@media screen and (min-width:1200px) {
+    .battle-text {
+        font-size: 24px;
+        margin: 0 36px 79px 36px;
+        width: 1128px;
+        }
+    }
+.battle-img-container {
+    margin-bottom: 80px;
+}
+@media screen and (min-width:1200px) {
+    .battle-img-container {
+        display: flex;
+        margin-bottom: 21px;
+    }
+}
+
+.battle-blue {
+    position: relative;
+    width: 145px;
+    height: 140px;
+    background-image: url('../img/battle/blue2x320.png');
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+@media screen and (min-width:1200px) {
+    .battle-blue {
+        position: relative;
+        width: 434px;
+        height: 421px;
+        background-image: url('../img/battle/blue2x1200.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 62px;
+        }
+}
+.battle-girl {
+    position: absolute;
+    top: -162px;
+    left: 25px;
+    opacity: 0;
+    transition: top 2s ease, opacity 2s ease;
+}
+.battle-girl.visible {
+    top: -62px;
+    opacity: 1;
+}
+@media screen and (min-width:1200px) {
+.battle-girl {
+        position: absolute;
+        top: -286px;
+        left: 68px;
+        width: 339px;
+    }
+
+        .battle-girl.visible {
+            top: -186px;
+            opacity: 1;
+        }
+}
+.battle-vs {
+    position: relative;
+    width: 96px;
+    height: 104px;
+    margin-left: 152px;
+}
+@media screen and (min-width:1200px) {
+    .battle-vs {
+            position: relative;
+            width: 188px;
+            height: 208px;
+            margin-left: 10px;
+            margin-top: 100px;
+        }
+}
+.battle-pink {
+    position: relative;
+    width: 160px;
+    height: 156px;
+    background-image: url('../img/battle/pink2x320.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 144px;
+
+}
+@media screen and (min-width:1200px) {
+    .battle-pink {
+        position: relative;
+        width: 434px;
+        height: 421px;
+        background-image: url('../img/battle/pink2x1200.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 59px;
+        margin-left: 12px;
+    
+        }
+}
+.battle-boy {
+    position: absolute;
+    top: -186px;
+    left: 7px;
+    opacity: 0;
+    transition: top 2s ease, opacity 2s ease;
+}
+.battle-boy.visible {
+    top: -86px;
+    opacity: 1;
+}
+@media screen and (min-width:1200px) {
+    .battle-boy {
+        top: -330px;
+        width: 421px;
+    }
+         .battle-boy.visible {
+             top: -230px;
+             opacity: 1;
+         }
+}
+
+
+.battle-v-position {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    transition: filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media screen and (min-width:1200px) {
+    .battle-v-position {
+        width: 50px;
+            top: 0;
+            left: 30px;
+        }
+}
+.battle-l-position {
+    position: absolute;
+    top: 0px;
+    left: -5px;
+}
+@media screen and (min-width:1200px) {
+.battle-l-position {
+        top: 40px;
+        left: 10px;
+        width: 160px;
+    }
+}
+.battle-b-position {
+    position: absolute;
+    top: -15px;
+    left: 16px;
+}
+@media screen and (min-width:1200px) {
+.battle-b-position {
+        top: 15px;
+        left: 45px;
+        width: 90px;
+    }
+}
+.battle-s-position {
+    position: absolute;
+    bottom: 15px;
+    right:  23px;
+}
+@media screen and (min-width:1200px) {
+    .battle-s-position {
+            bottom: 10px;
+            right: 60px;
+            width: 24px;
+        }
+}
+.battle-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width:1200px) {
+    .battle-link-img {
+        width: 295px;
+    }
+}
