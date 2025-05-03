@@ -9,6 +9,9 @@
         <symbol id="icon-burger" viewBox="0 0 32 32">
             <path fill="#fff" d="M4 24v-2.667h16V24H4zm0-6.667v-2.667h24v2.667H4zm0-6.666V8h24v2.667H4z" style="fill:var(--color2, #fff)"/>
         </symbol>
+                <symbol id="icon-arrow_back" viewBox="0 0 32 32">
+            <path d="m7.65 18 11.2 11.2L16 32 0 16 16 0l2.85 2.8L7.65 14H32v4H7.65z"/>
+        </symbol>
   </defs>
 </svg>
 
