@@ -2,7 +2,12 @@
     padding-top: 40px;
     padding-bottom: 80px;
 }
-
+@media screen and (min-width:1200px) {
+    #battle {
+            padding-top: 60px;
+            padding-bottom: 124px;
+        }
+}
 .battle-title {
     font-family: "Cinzel", sans-serif;
     font-weight: 700;
@@ -10,6 +15,12 @@
     color: #fff;
     text-align: center;
     margin-bottom: 14px;
+}
+@media screen and (min-width:1200px) {
+.battle-title {
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
 }
 .battle-text {
     font-family: "Cinzel", sans-serif;
@@ -20,6 +31,23 @@
     margin: 0 16px 27px 16px;
     width: 288px;
 }
+@media screen and (min-width:1200px) {
+    .battle-text {
+        font-size: 24px;
+        margin: 0 36px 79px 36px;
+        width: 1128px;
+        }
+    }
+.battle-img-container {
+    margin-bottom: 80px;
+}
+@media screen and (min-width:1200px) {
+    .battle-img-container {
+        display: flex;
+        margin-bottom: 21px;
+    }
+}
+
 .battle-blue {
     position: relative;
     width: 145px;
@@ -30,16 +58,46 @@
     background-repeat: no-repeat;
     margin-left: 15px;
 }
+
+@media screen and (min-width:1200px) {
+    .battle-blue {
+        position: relative;
+        width: 434px;
+        height: 421px;
+        background-image: url('../img/battle/blue2x1200.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 62px;
+        }
+}
 .battle-girl {
     position: absolute;
     top: -62px;
     left: 25px;
+}
+@media screen and (min-width:1200px) {
+.battle-girl {
+        position: absolute;
+        top: -186px;
+        left: 68px;
+        width: 339px;
+    }
 }
 .battle-vs {
     position: relative;
     width: 96px;
     height: 104px;
     margin-left: 152px;
+}
+@media screen and (min-width:1200px) {
+    .battle-vs {
+            position: relative;
+            width: 188px;
+            height: 208px;
+            margin-left: 10px;
+            margin-top: 100px;
+        }
 }
 .battle-pink {
     position: relative;
@@ -50,36 +108,88 @@
     background-position: center;
     background-repeat: no-repeat;
     margin-left: 144px;
-    margin-bottom: 80px;
 
+}
+@media screen and (min-width:1200px) {
+    .battle-pink {
+        position: relative;
+        width: 434px;
+        height: 421px;
+        background-image: url('../img/battle/pink2x1200.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 59px;
+        margin-left: 12px;
+    
+        }
 }
 .battle-boy {
     position: absolute;
     top: -86px;
     left: 7px;
 }
+@media screen and (min-width:1200px) {
+    .battle-boy {
+        top: -230px;
+        width: 421px;
+    }
+}
 .battle-v-position {
     position: absolute;
     top: -20px;
     left: 10px;
+}
+@media screen and (min-width:1200px) {
+    .battle-v-position {
+        width: 50px;
+            top: 0;
+            left: 30px;
+        }
 }
 .battle-l-position {
     position: absolute;
     top: 0px;
     left: -5px;
 }
+@media screen and (min-width:1200px) {
+.battle-l-position {
+        top: 40px;
+        left: 10px;
+        width: 160px;
+    }
+}
 .battle-b-position {
     position: absolute;
     top: -15px;
     left: 16px;
+}
+@media screen and (min-width:1200px) {
+.battle-b-position {
+        top: 15px;
+        left: 45px;
+        width: 90px;
+    }
 }
 .battle-s-position {
     position: absolute;
     bottom: 15px;
     right:  23px;
 }
+@media screen and (min-width:1200px) {
+    .battle-s-position {
+            bottom: 10px;
+            right: 60px;
+            width: 24px;
+        }
+}
 .battle-link {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media screen and (min-width:1200px) {
+    .battle-link-img {
+        width: 295px;
+    }
 }
