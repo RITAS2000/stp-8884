@@ -1,16 +1,15 @@
 
 .hero-wrapper {
     padding: 0 68px 0 17px;
+        background-image: url(../img/hero/bgDesctop1x.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
 }
 
-.hero{
-    background-image: url(../img/hero/bgDesctop1x.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-}
+
 @media  (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .hero {
+    .hero-wrapper {
         background-image: url(../img/hero/bgDesctop2x.jpg)
     }
 }
