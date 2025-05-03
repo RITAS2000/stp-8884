@@ -9,7 +9,7 @@ const observer = new IntersectionObserver(
         imageGirl.classList.add('visible');
         setTimeout(() => {
           imageBoy.classList.add('visible');
-        }, 1500);
+        }, 1200);
         observer.disconnect();
       }
     });
