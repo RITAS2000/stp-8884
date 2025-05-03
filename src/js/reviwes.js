@@ -1,0 +1,20 @@
+const reviwesItems = document.querySelectorAll('.rewivse-item');
+const section = document.querySelector('#reviwes');
+
+const observer = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        reviwesItems.forEach((item, index) => {
+          setTimeout(() => {
+            item.classList.add('visible');
+          }, index * 200); // трохи затримки між пунктами
+        });
+        observer.disconnect(); // якщо хочеш, щоб анімація була один раз
+      }
+    });
+  },
+  { threshold: 0.3 }
+);
+
+observer.observe(section);
