@@ -6,5 +6,5 @@
      allow="autoplay; encrypted-media"
         allowfullscreen>
       </iframe>
-    `});const p=new u("#faq-accordion-container",{duration:500,elementClass:"faq-item",triggerClass:"faq-button",panelClass:"faq-text-container"});p.open(0);const m=document.querySelector(".battle-girl"),y=document.querySelector("#battle"),w=document.querySelector(".battle-boy"),g=new IntersectionObserver((n,r)=>{n.forEach(o=>{o.isIntersecting&&(m.classList.add("visible"),setTimeout(()=>{w.classList.add("visible")},1500),r.disconnect())})},{threshold:.3});g.observe(y);
+    `});const p=new u("#faq-accordion-container",{duration:500,elementClass:"faq-item",triggerClass:"faq-button",panelClass:"faq-text-container"});p.open(0);const m=document.querySelector(".battle-girl"),y=document.querySelector("#battle"),w=document.querySelector(".battle-boy"),g=new IntersectionObserver((n,r)=>{n.forEach(o=>{o.isIntersecting&&(m.classList.add("visible"),setTimeout(()=>{w.classList.add("visible")},1200),r.disconnect())})},{threshold:.3});g.observe(y);
 //# sourceMappingURL=index.js.map
