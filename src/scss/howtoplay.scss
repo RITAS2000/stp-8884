@@ -14,8 +14,6 @@
     gap: 8px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    text-align: center;
 }
 
 .svg-cloud {
@@ -30,9 +28,11 @@
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
+height: 92px;
 color: white;
 }
+
+
 
 .HTP-items:last-child {
     position: relative;
@@ -47,5 +47,5 @@ font-weight: 400;
     font-size: 10px;
     text-align: center;
     color: #fff;
-    padding-bottom: 18px;
+    
 }
