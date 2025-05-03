@@ -73,16 +73,27 @@
 }
 .battle-girl {
     position: absolute;
-    top: -62px;
+    top: -162px;
     left: 25px;
+    opacity: 0;
+    transition: top 2s ease, opacity 2s ease;
+}
+.battle-girl.visible {
+    top: -62px;
+    opacity: 1;
 }
 @media screen and (min-width:1200px) {
 .battle-girl {
         position: absolute;
-        top: -186px;
+        top: -286px;
         left: 68px;
         width: 339px;
     }
+
+        .battle-girl.visible {
+            top: -186px;
+            opacity: 1;
+        }
 }
 .battle-vs {
     position: relative;
@@ -126,20 +137,34 @@
 }
 .battle-boy {
     position: absolute;
-    top: -86px;
+    top: -186px;
     left: 7px;
+    opacity: 0;
+    transition: top 2s ease, opacity 2s ease;
+}
+.battle-boy.visible {
+    top: -86px;
+    opacity: 1;
 }
 @media screen and (min-width:1200px) {
     .battle-boy {
-        top: -230px;
+        top: -330px;
         width: 421px;
     }
+         .battle-boy.visible {
+             top: -230px;
+             opacity: 1;
+         }
 }
+
+
 .battle-v-position {
     position: absolute;
     top: -20px;
     left: 10px;
+    transition: filter 0.3s ease, box-shadow 0.3s ease;
 }
+
 @media screen and (min-width:1200px) {
     .battle-v-position {
         width: 50px;
