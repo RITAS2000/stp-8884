@@ -8,9 +8,9 @@ const observer = new IntersectionObserver(
         reviwesItems.forEach((item, index) => {
           setTimeout(() => {
             item.classList.add('visible');
-          }, index * 200); // трохи затримки між пунктами
+          }, index * 200);
         });
-        observer.disconnect(); // якщо хочеш, щоб анімація була один раз
+        observer.disconnect();
       }
     });
   },
