@@ -3,6 +3,10 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+section {
+  scroll-margin-top: 70px
+}
+
 h1,
 h2,
 h3,
@@ -13,9 +17,7 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
+
 
 ul {
   margin: 0;
