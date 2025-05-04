@@ -1,0 +1,50 @@
+
+.policy-wrapper {
+    padding: 20px 16px;
+}
+.policyItems {
+    font-weight: 700;
+        font-size: 20px;
+        color: #000;
+        font-family: 'Cinzel', serif;
+        
+}
+.listIsPolicyList {
+margin-top: 20px;
+}
+.itemsInPolicyList {
+    font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        font-family: 'Lora', serif;
+}
+.itemsInPolicyList:first-child {
+    margin-bottom: 10px;
+}
+.itemsInPolicyList:not(:first-child ){
+    margin-left: 18px;
+list-style-type: disc;
+}
+.itemsInPolicyList:last-child {
+    margin-bottom: 20px;
+}
+.textInList-policy {
+    margin: 20px 0;
+    font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        font-family: 'Lora' ,serif;
+}
+.linkInPolicy-terms.Policy {
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.textInList-policy.Rights {
+    margin: 0 0 20px 0;
+}
+.textInList-policy.Contact {
+    margin-bottom: 0;
+}
+.mailtoTerms.Policy {
+    text-decoration: none;
+}
