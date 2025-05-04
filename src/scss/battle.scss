@@ -52,7 +52,8 @@
     position: relative;
     width: 145px;
     height: 140px;
-    background-image: url('../img/battle/blue2x320.png');
+    background-image: image-set(url('../img/battle/blue1x320.png') 1x,
+            url('../img/battle/blue2x320.png') 2x);
     background-size: cover;
     background-position: center;    
     background-repeat: no-repeat;
@@ -64,7 +65,8 @@
         position: relative;
         width: 434px;
         height: 421px;
-        background-image: url('../img/battle/blue2x1200.png');
+        background-image: image-set(url('../img/battle/blue1x1200.png') 1x,
+                url('../img/battle/blue2x1200.png') 2x);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -114,7 +116,8 @@
     position: relative;
     width: 160px;
     height: 156px;
-    background-image: url('../img/battle/pink2x320.png');
+    background-image:image-set(url('../img/battle/pink1x320.png') 1x,
+            url('../img/battle/pink2x320.png') 2x);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -126,7 +129,8 @@
         position: relative;
         width: 434px;
         height: 421px;
-        background-image: url('../img/battle/pink2x1200.png');
+        background-image:image-set(url('../img/battle/pink1x1200.png') 1x,
+                url('../img/battle/pink2x1200.png') 2x);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
