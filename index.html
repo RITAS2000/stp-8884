@@ -15,7 +15,7 @@
   <script type="module" crossorigin src="/stp-8884/index.js"></script>
   <link rel="modulepreload" crossorigin href="/stp-8884/assets/vendor-BcDFKbXm.js">
   <link rel="stylesheet" crossorigin href="/stp-8884/assets/vendor-DVz14bw_.css">
-  <link rel="stylesheet" crossorigin href="/stp-8884/assets/styles-DPRQ1fxN.css">
+  <link rel="stylesheet" crossorigin href="/stp-8884/assets/styles-3iXdxgij.css">
 </head>
 
 <body>
@@ -29,8 +29,44 @@
       </picture>
       <img src="/stp-8884/assets/Logo1x-UgJU7103.png" alt="Logo">
     </a>
+    <button id="openModal" class="btnBurger"><svg width="31" height="21">
+      <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#icon-burger"></use>
+    </svg></button>
+    <div id="myModal" class="modal">
+      <div class="modalContent">
+        <button class="close">
+        <svg class="svgClose" height="22" width="22">
+          <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#icon-close"></use>
+        </svg>
+        </button>
+        <ul class="listModal">
+          <li class="itemsModal"><a href="#about" class="modalLink">About the game</a></li>
+          <li class="itemsModal"><a href="#features" class="modalLink">Features</a></li>
+          <li class="itemsModal"><a href="#HTP" class="modalLink">How to play</a></li>
+          <li class="itemsModal"><a href="#trailer" class="modalLink">Preview</a></li>
+          <li class="itemsModal"><a href="#reviwes" class="modalLink">User reviews</a></li>
+          <li class="itemsModal"><a href="#faq" class="modalLink">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="cookieModal" class="cookieModal">
+      <div class="cookieContent">
+        <button class="cookieClose">
+        <svg id="svgClose" class="svgClose" width="16" height="20">
+          <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#icon-close"></use>
+        </svg>
+        </button>
+        <h2 class="cookiesPolicy">Cookies Policy</h2>
+        <p class="cookiesText">We use cookies to improve your experience on our website. </p>
+        <p class="cookiesText">By browsing this website, you agree to our use of cookies.</p>
+        <div class="wrapperForBtn-cookies">
+          <button id="acceptCookies">ACCEPT COOKIES</button>
+          <button id="declineCookies">DECLINE COOKIES </button>
+        </div>
+      </div>
+    </div>
     <button class="btnBurger"><svg width="31" height="21">
-        <use href="/stp-8884/assets/sprite-p_9seCB4.svg#icon-burger"></use>
+        <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#icon-burger"></use>
       </svg></button>
   </div>
 </header>
@@ -62,7 +98,7 @@
     </div>
   </div>
 </section>
-    <section>
+    <section id="about">
   <div class="container aboutTheGame-wrapper">
     <h2 class="about-Title">ABOUT THE GAME</h2>
     <picture>
@@ -85,7 +121,7 @@
   </div>
 </section>
 
-    <section>
+    <section id="features">
     <div class="container features-wrapper">
         <h2 class="features-title">FEATURES</h2>
 <ul class="featuresList">
@@ -104,7 +140,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
 </ul>
 </div>
 </section>
-    <section>
+    <section id="HTP">
     <div class="container HTP-wrapper">
 <h2 class="HTP-title">HOW TO PLAY</h2>
 <ul class="HTP-list">
@@ -131,7 +167,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
 <!-- <svg class="svg-cloud" width="145" height="92">
         <use href="img/sprite.svg#icon-cloud"></use>
     </svg> -->
-    <section>
+    <section id="trailer">
   <div class="container watch-wrapper">
     <h2 class="watch-title">Watch the trailer</h2>
     <div class="wrapperForTrailerImg" id="videoWrapper">
@@ -179,7 +215,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
 
             <div class="arrow-left">
                 <svg width="24" height="24" class="ingame-icon">
-                    <use href="/stp-8884/assets/sprite-p_9seCB4.svg#arrow-left"></use>
+                    <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#arrow-left"></use>
                 </svg>
             </div>
             <div class="swiper swiper-ingame">
@@ -221,7 +257,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
 
             </div>
             <div class="arrow-right"><svg width="24" height="24" class="revers-icon">
-                    <use href="/stp-8884/assets/sprite-p_9seCB4.svg#arrow-left"></use>
+                    <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#arrow-left"></use>
                 </svg></div>
         </div>
 
@@ -344,7 +380,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
                     <h3 class="faq-title">Is Rivengard free to play?</h3>
                     <button type="button" class="faq-button">
                         <svg width="24" height="24" class="faq-icon-down">
-                            <use href="/stp-8884/assets/sprite-p_9seCB4.svg#arrow-left"></use>
+                            <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#arrow-left"></use>
                         </svg>
                     </button>
                 </div>
@@ -357,7 +393,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
                     <h3 class="faq-title">How many heroes are there?</h3>
                     <button type="button" class="faq-button">
                         <svg width="24" height="24" class="faq-icon-down">
-                            <use href="/stp-8884/assets/sprite-p_9seCB4.svg#arrow-left"></use>
+                            <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#arrow-left"></use>
                         </svg>
                     </button>
                 </div>
@@ -370,7 +406,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
                     <h3 class="faq-title">Can I play without a guild?</h3>
                     <button type="button" class="faq-button">
                         <svg width="24" height="24" class="faq-icon-down">
-                            <use href="/stp-8884/assets/sprite-p_9seCB4.svg#arrow-left"></use>
+                            <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#arrow-left"></use>
                         </svg>
                     </button>
                 </div>
@@ -383,7 +419,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
                     <h3 class="faq-title">Does it support tablets?</h3>
                     <button type="button" class="faq-button">
                         <svg width="24" height="24" class="faq-icon-down">
-                            <use href="/stp-8884/assets/sprite-p_9seCB4.svg#arrow-left"></use>
+                            <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#arrow-left"></use>
                         </svg>
                     </button>
                 </div>
@@ -396,7 +432,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
                     <h3 class="faq-title">Are the maps always the same?</h3>
                     <button type="button" class="faq-button">
                         <svg width="24" height="24" class="faq-icon-down">
-                            <use href="/stp-8884/assets/sprite-p_9seCB4.svg#arrow-left"></use>
+                            <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#arrow-left"></use>
                         </svg>
                     </button>
                 </div>
@@ -449,8 +485,8 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
     <div class="container footer-wrapper">
         <ul class="footer-list">
             <li class="footer-items"><a href="../terms.html">Terms & Conditions</a></li>
-            <li class="footer-items"><a target="_blank" href="">Privacy Policy</a></li>
-            <li class="footer-items"><a target="_blank" href="">Cookie Policy</a></li>
+            <li class="footer-items"><a  href="../privacy.html">Privacy Policy</a></li>
+            <li class="footer-items"><a  href="../cookies.html">Cookie Policy</a></li>
             <li class="footer-items"> All rights reserved fbgelazewj.xyz</li>
             <li class="footer-items">© 2025</li>
         </ul>
