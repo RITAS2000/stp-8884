@@ -213,9 +213,17 @@
         }
 }
 .battle-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    width: 212px;
+    height: 56px;
+    margin-left: 54px;
+}
+@media screen and (min-width:1200px) {
+.battle-link {
+        width: 295px;
+        height: 85px;
+        margin-left: 453px;
+    }
 }
 @media screen and (min-width:1200px) {
     .battle-link-img {
