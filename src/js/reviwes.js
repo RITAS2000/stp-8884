@@ -21,7 +21,7 @@ const screenWidth = window.innerWidth;
 
 if (screenWidth <= 320) {
   intervalTime = 1200;
-} else if (screenWidth >= 1200) {
+} else if (screenWidth >= 1600) {
   intervalTime = 600;
 }
 
