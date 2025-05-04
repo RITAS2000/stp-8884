@@ -20,9 +20,9 @@ let intervalTime = 600;
 const screenWidth = window.innerWidth;
 
 if (screenWidth <= 320) {
-  intervalTime = 1200;
-} else if (screenWidth >= 1600) {
-  intervalTime = 600;
+  intervalTime = 1600;
+} else if (screenWidth >= 1200) {
+  intervalTime = 1000;
 }
 
 const starInterval = setInterval(createStarImage, intervalTime);
