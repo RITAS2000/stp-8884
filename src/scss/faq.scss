@@ -79,7 +79,7 @@ li.faq-item {
 .is-active .faq-icon-down {
   transform: rotate(90deg);
   top:0px;
-  right: 0px;
+  right: -1px;
 }
 .faq-button {
   position: relative;
@@ -88,6 +88,11 @@ li.faq-item {
   width: 20px;
   height: 20px;
   margin-right: 16.92px;
+}
+@media screen and (min-width:1200px) {
+  .is-active .faq-icon-down {
+      right: 3px;
+    }
 }
 @media screen and (min-width:1200px) {
   .faq-button {
