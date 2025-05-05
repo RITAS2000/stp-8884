@@ -5,7 +5,6 @@ const container = document.getElementById('falling-stars');
 function createStarImage() {
   const img = document.createElement('img');
   img.src = imgStar;
-  console.log(img.src);
   img.setAttribute('data-role', 'star-image');
   img.style.left = `${Math.random() * 100}vw`;
   img.style.top = `-30px`;
