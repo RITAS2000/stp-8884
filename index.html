@@ -19,7 +19,7 @@
   <script type="module" crossorigin src="/stp-8884/index.js"></script>
   <link rel="modulepreload" crossorigin href="/stp-8884/assets/vendor-BcDFKbXm.js">
   <link rel="stylesheet" crossorigin href="/stp-8884/assets/vendor-DVz14bw_.css">
-  <link rel="stylesheet" crossorigin href="/stp-8884/assets/styles-B-vaH231.css">
+  <link rel="stylesheet" crossorigin href="/stp-8884/assets/styles-DqO3p9e1.css">
 </head>
 
 <body>
@@ -29,20 +29,33 @@
 
     <a href="./index.html">
       <picture>
-        <source srcset="/stp-8884/assets/Logo1x-UgJU7103.png 1x, /stp-8884/assets/Logo2x-DoITXffo.png 2x" media="(min-width: 1200px)">
+        <source srcset="/stp-8884/assets/logoDesktop1x-D7NDv2d0.png 1x, /stp-8884/assets/logoDesktop2x-Dj7wKogF.png 2x"
+        media="(min-width: 1200px)">
       </picture>
-      <img src="/stp-8884/assets/Logo1x-UgJU7103.png" alt="Logo">
+      <img src="/stp-8884/assets/Logo1x-UgJU7103.png" srcset="/stp-8884/assets/logoDesktop2x-Dj7wKogF.png 2x" alt="Logo">
     </a>
+    <nav class="headerNav">
+    <ul class="headerList">
+      <li class="headerItems"><a href="#about">About the game</a></li>
+      <li class="headerItems"><a href="#features">Features</a></li>
+      <li class="headerItems"><a href="#HTP">How to play</a></li>
+      <li class="headerItems"><a href="#trailer">Preview</a></li>
+      <li class="headerItems"><a href="#reviwes">User reviews</a></li>
+      <li class="headerItems"><a href="#faq">FAQ</a></li>
+    </ul>
+    </nav>
     <button id="openModal" class="btnBurger"><svg width="31" height="21">
         <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#icon-burger"></use>
       </svg></button>
     <div id="myModal" class="modal">
       <div class="modalContent">
+        <div class="wrapperInBurger">
         <button class="close">
           <svg class="svgClose" height="22" width="22">
             <use href="/stp-8884/assets/sprite-DDLYMf3E.svg#icon-close"></use>
           </svg>
         </button>
+        <nav>
         <ul class="listModal">
           <li class="itemsModal"><a href="#about" class="modalLink">About the game</a></li>
           <li class="itemsModal"><a href="#features" class="modalLink">Features</a></li>
@@ -51,6 +64,8 @@
           <li class="itemsModal"><a href="#reviwes" class="modalLink">User reviews</a></li>
           <li class="itemsModal"><a href="#faq" class="modalLink">FAQ</a></li>
         </ul>
+        </nav>
+      </div>
       </div>
     </div>
     <div id="cookieModal" class="cookieModal">
@@ -83,27 +98,30 @@
         Choose your heroes, master <span class="little-the">the</span> terrain, and outwit your enemies in
         turn-based tactical combat!
       </p>
-      <a target="_blank" href="https://play.google.com/store/apps/details?id=com.king.hero.rpg.tactics&pli=1">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAA0CAYAAAAjfRLqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA47SURBVHgB7V1rbBTXFT6zgdQJTm3SSulDVZeolfIjkXn8qBRKsUvSSo3KI1VTEKU2iRRKK9VQlfZHpdr+F6mVjKVKFa1acChYBbU8+gOlrcDIaWhSCKY8UiBl7SiFhCbYBgN+hL093+yc8dnxzHp3dg275H7SZcazM3Pv3v323O9+587ikML27dvrE4lEo+M49fxnkiwsyhd9zNPukZGRtrVr1/bJQUd2du7c2T5z5swNjzzyCM2ZM4dmzZpFFhblioGBARocHKSTJ0/SjRs3WletWtWG4y6hu7q6Wmpra1sXLVpkiWxRUbh+/Tr19PTQ0NDQ5pUrV250duzYMbe6uvr4kiVLLJktKhIg9YEDB4jlR0OCdciGxx57zJLZomIB7kIqz5gxY0OC/142e/ZssrCoZGDeZ4xZDELX8mSQLCzuAtQmyMLiLsKHhtB9fX1uKReUW3vuFsQi9KAhahv9K6248SJ1jh2lckZvby81NDS4GguFJ8G0ceNG//Vt27a5x3Rpa2sjNusnHUfRACHlmNxbFxwLoru7m+bNm+e3B/MX1BdsT0dHR9Y1wbotwhGL0B3XmNBD99O+8dO09uZuevjaC9Q5fozKDSAcyFxXV+ca8TxpoOPHj7sk19ExmUxSKpXyS3NzM7W3t7v7mzdvpvr6ev+1KBw6dMh9fdmyZbR8+XJ3H8fC2rN48WK/PXv27HFJrL9kQGtrq43gMTCDYuDwKJEZW8j/VBFV7aJUeoDW3thFe2eepvaqr1MyUR6uyYYNG1xygZSCuXPnTiIaAFIHwckmqqmpiXw97HpxjMLOR9RvamrKag++LFu3bnWJji+SXIsCkoPwFvkjFqFZcWRSjGMLMn/cv5u3xo3YKI33LqCWjzx5x4l9+PBhlyyCvXv3uulSAcgO4BjIJkB0BplLDUiHsC8TSA0Co70CtBvSBNdY5I9YhHZhvC2T2iX4fbv8Q51jx9zSUvUENd+7iGqdKioHgDCQGwC200HaXEB9+guVCyB4S0uL+0XTX0qL3CjO5fAY7IxypL7xDDmBl9pG/kbzhze75L4TgLzYt2+f/zciLyIkCAJiiSwA0XBMynQRPdgegTge0NYakExoo54gWuRGPEIb8sksUdmVH9eayWFd7UsSRh/09c1dNOcOTBxBYMgMuAgywcIQvmLFClfLgmACIRVKvlG0VO0R/Rymu+Uai/wQO0KbwI7B9oNPManXManvm3jdQ79L7N3UcH2LS/LbARAWrgYIIbYayIxICKIIQC6x0VCmKyLKhBSuhm5PY2Nj1kQxeA0cD4v84OzcudMsXbq0oMVJDZdZj96cILVjvImi8YiduEhUs4WcxEhWtPbP59LEE8ef3caJI6IuCuTE7dbOYZAIXS7tqXRgxd3+/fvjRWjHZO8LmbGDrcOR2hlYR5SuytLVDk2QeyvravjXSNDcjogN0mBILxfyiDVnyVxaxCJ0MDKLpnajc9orkB9X1pG5Nds/31B2lAYwcfwyy5ByzzhaVAbia2hxOEx2dPZZm0byhSP1/1hTf5AtK4IE7/P09fxBTgG/10kWFnER2+VwvK0fmbFNZ/YdTWoms7m8zt0CIjuCkbo2PUq/6/sV0YUmonMN7Jr0kYVFoYidWJlEXPV3WrQ0ZUhOLDucS6ypP7GF6N5B92StrZPjV2lP/5+oboxnm/fwgWvdRGceJvpYI9FDLXxNkkoF2GRwPU6cOOFOzETHImsI92OqFHe5AIkhmeRq+zEOcB9JOIUBmcxc16D+spkLwOUYHh42haD+ojHOf7icZ2Zycc565Q0uZ/jYKd6e5PIv3u/FiiDeP8al94px3nvB0OCPjeOVOZe/a1JHaox52THmCFP9Nd4e5e1x3p7g7Skul1uNGUuZYsB2meEPRouiSYXJbNg+M5UAtBVtZj/dFAv0Ta5+YbK69QwMDPjXcALKfz2VSpk7DXAYXI6fWElTVnTWWzcyi672JomuHBlj2fHW8+SMewt4xq7SwfNdvB3ybux4WsSL344nUN5vJXqbZcj1eAkGJDKQvJB1EYgmSKzA30VCQyIQIjayczaRkQ1EY3jnWFsyXUmnUiE+oWVrJvxnR5Fcbx0h+i3+c4Q1dWodJYcTdPAsk3n0KhE5kyvwLRHPyR7vJ7r8LN+nsA5FkkQSE5ATWL2GpZtIcWOtBBIasvQTQyeSHLJo6cMI9AUHPL+gX9BPAL7wwWWu5YaiI7TjTQYdNTl0X7tFfmTGvk9qLslLo3TwJ+cp+e54tjltZN/JNrv91tZwyV+r4QPQZMaHFUVWvI6sIiKRxQTQL+hDfNEB9E85R+l4iRXKkNeXFTjoEdwogovcEAcE28++/w4d+vUmSqZYZmydTzRQlW15+N8K7YVQhsgfb6dCgA9COh+p7kqZ8JUjkKIXlPODB/HWQwccjizpoeRGWjsgaSHzjyg58G7mRiDzbxcQPX+MHQ3OpWtTz+U0798DIjcTPdhcUHQGZGUbNHIpZAS+HJ2dnf4TL+KOSPQKg7gq/f397t8ia6K+XKgDMklcDGh9uC/yN67P5WoE24indWTVXjGATMsHqFPqlxWN6H/pIxwXdwR9F+aOyCgp1xaEWC5HP1OU3Qzn9ISb4bCb4bCbQXAz/snlNd4/YkziFd7v4Vn5vksm9dS3jXn8CWMWPpnZSnnqi8b8+T5jXmFn41Xm/1Hevs7bt9YaM5oyccDywZ+Fl8K5gBOA2T5FuCPBmT4cgVyuCo8ek+rgDzK0Dtxfjst1YS4H3nNUG8Pq0+9NzsN+EHhvUh+2QJjLEdV+FP4Sun2i6wprk74v7pcvxOWIFaF9OeFVLRJDNLIvMbwonbziyYyBdwI3cjLhG5F68xeI1nOk/sw1ourFRJ9u4W09xYXWeVEeKSKBflIlCHnWEFEHQ674vog2eNQKryEaybOC0OgSCXG+uCqIMiiIchg1RNvjXvLYFaI4orG0V+rAPfJ5akXaoNuIFX2YF6CNwfqiIO0TIJrqY1Er/2Q0CbYf1+O9YYs+QR+hL/CeMCGXCacAbZW+zzXyRSJWhE5lIjMFfWZE5le5/IOLF5nnuJF5dXZEjiprVhozdMiUAjoSRH3TdTSgiMjrvl8v0oZFYj0S8NA+6b78gWWdjyiFaEWevyvero6AwTpwXwpEtWCE5g8/9Pqo+qL6KlfR7yUsQmOL47naH4zSekTAdVN9ZlEo3of2orQjdpxMAD1XA3/XXXyTXu9YT8nBy+H3kUfzq2cRNa8nerGL6KP1VAponRmVBZMHVINFrkWkQWSSCBmmRUUTA6L9xMcWh0AD95S12IhqiH64v46AwToQxabKxElkkzbKgwyI0jqjNxVkFaAUXIOojsg61bps/XCvrC3HqKHbjrbIiAXon3CQ++P84NM7+SJe6ltJCr0Yybfp+O+5b7/pTgBrR65H32fW/UTfeprom98geqC0PxaJTpGhDUQLIwU6X4ZJDelkvK6HX0ywwoB6QCgQFOfrCWDU+QKcb8yEmxP2QUp6O0p66DbKJFQnkUDI4BM6UcAXuuCJmAcQOfiggg4IGggCIqdAcvS1TOIxWYw7iY2/OCkdKKZAMn/tKxzSthA9+52Sk1kgkRNE05EgF0B+IUhwFh7lvw4NDfn7+Zw/nRAyg5Qgl/y2SLHrPaYCyChkxhcI9Rrvd1DCIrvuWwQD/UR+UFcXgniEDvGXjZc8mftfJvNvNk2Q2QlkAedxlPvlL4h+uonokw/RdAJRSaINOnsqUoMIOjqLvSYdH/aAq9xbrpGRAQj+oI1AJ28QkXVEFOmgERXlBDLUA6gf8gAFxJK2T7d3LLIG9aE/pD1RC5dwDPIIQH9Iv+MzK8ZiLCpT6LsbHpnrQOYtHJlvDqtzveH085/LEBllXh3dLmAIlQ5CpICuE58UQFQAWdCR0HviL8sPvER1vFyLYTboAOiRQe4pQF2SPhafVfutuId+plHci6kg0gl16t/3kDbifWM7XaOGkBb312thsB+lveULJ1INiOVsaMRyOf7NLIWbwT4z/Z3Ly8Y0tb9kBpYsn+wxf5WP/eGP5k4Cs+epVtpJgRMA50JDOwVyjvaGUeAyaPDEL9JLlntoN0B7vboOivCTw3xo/R7zaaNgKh86DEGXA32k69J16+PB++P9kPKq46Jol0PS2ojMTUf/Qlt3/zwTmSUiP1BN9Bzr492/J3rmabqTkHUcuSY8iBTQbrJIKfgarpdILRFFPF9cF1wDgnP16KB/HgFtgLbUQ6u0UUd3iVq4fz7DMK6XyW8+bSwlUId+T1K3LAiLgp4ES/8Wg3hPfZ/hoROfTXqCzFnAhO8H35u2yV6xkMXpIi/Enir0WlyjNXYUtJYGmac6H+eKJJLzkaSQZZxTDctx2lhKFPLwAaQSJKAkseJCnvqOJTlWvJGRGY0sM7Lkxfd/yCnrXmNROCBzWFOGpul18iZfSVAJKCaREkRRqe86to9rXlKRGZO859bc1sne3QZM2DBhlN/pkCiMY5KeT8ZZrFPG0Et74yZSgohF6JYHWSsPnyBa9DjRlxZmJIZFUZCf1IVMwDAMPSmZSoH+tadKB96XXg1ZjFWXhTiSw2J6gCFY1mToAvfibpIaAFwSOCFha1fiQCRHrEmhxfSiT/3/KzppYhENmRTG/31oi2mDJXF8wIcu3wfELCzyxPj4ODaDIHT3hQsXyMKiknHlyhX8PPHexK1btzrOnTvnahALi0oEuHvq1ClKp9MdiTVr1nSPjo529PT0WFJbVBzAWXCXXY621atX9/prO3fs2NFaXV3d8uijj7ppVvsf2luUM0BkSOWzZ8/S2NhYB5PZXQiStVi5q6sLD9G18i7SNkmysChf9DFXu1lmdEJlyMH/A/z507pCgZOgAAAAAElFTkSuQmCC" srcset="/stp-8884/assets/googlePlay2x-DeHnTbqy.png 2x" class="wrapper-GooglePlay" alt="">
+      <a class="linkForBtn" target="_blank" href="https://play.google.com/store/apps/details?id=com.king.hero.rpg.tactics&pli=1" >
+        <picture class="pictureWrapper">
+          <source srcset="data:image/png;base64,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 1x, /stp-8884/assets/GooglePlayDesktop2x-9JfOl1f6.png 2x"
+          media="(min-width: 1200px)">
+          <img src="data:image/png;base64,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" srcset="/stp-8884/assets/googlePlay2x-DeHnTbqy.png 2x" class="wrapper-GooglePlay" alt="BtnGooglePlay">
+        </picture>
       </a>
-      <!-- <div class="wrapper-GooglePlay">
-      <a href="" >
-        <img src="" alt="GooglePlay-btn" />
-        <span class="span-in-GooglePlay">
-          <span>GET IT ON</span>
-          <strong>Google Play</strong>
-        </span>
-      </a>
-      </div> -->
     </div>
   </div>
 </section>
     <section id="about">
   <div class="container aboutTheGame-wrapper">
     <h2 class="about-Title">ABOUT THE GAME</h2>
+    <div class="wrapperDesktop">
     <picture>
-      <source srcset="/stp-8884/assets/AboutIMG1x-O0yvaJ3n.png 1x, /stp-8884/assets/AboutIMG2x-CK_uZr-X.png 2x" media="(min-width: 1200px)" />
-      <img class="abotIMG" src="/stp-8884/assets/AboutIMG1x-O0yvaJ3n.png" srcset="/stp-8884/assets/AboutIMG2x-CK_uZr-X.png 2x" alt="Rivengard" />
+      <source
+        srcset="/img/about/AboutIMG1xDesktop 1x, /stp-8884/assets/AboutIMG2xDesktop-DYZb-gXR.png 2x"
+        media="(min-width: 1200px)"
+      />
+      <img class="abotIMG"
+        src="/stp-8884/assets/AboutIMG1x-O0yvaJ3n.png"
+        srcset="/stp-8884/assets/AboutIMG2x-CK_uZr-X.png 2x"
+        alt="Rivengard"
+      />
     </picture>
     <p class="aboutDescription">
       Challenge your tactical mastery in Rivengard – Clash Of Legends! Use the
@@ -111,24 +129,68 @@
       battles. Unlock legendary warriors, combine unique abilities, and rise
       through the ranks of glory!
     </p>
+    </div>
   </div>
 </section>
     <section id="features">
     <div class="container features-wrapper">
         <h2 class="features-title">FEATURES</h2>
 <ul class="featuresList">
-    <li class="featuresItems"><p class="featuresText">Tactical Combat <br/>
-Outsmart your enemies <br>with careful positioning and clever strategies.</p><img class="features-IMG" src="/stp-8884/assets/swords1x-D8l87Cnz.jpg" srcset="/stp-8884/assets/swords1x-D8l87Cnz.jpg 1x, /stp-8884/assets/swords2x-CLv3J3Ir.jpg 2x" alt="swords"></li>
-    <li class="featuresItems"><p class="featuresText">Dynamic Terrain <br>
-Battle across varied maps where environment affects gameplay.</p> <img class="features-IMG" src="/stp-8884/assets/map1x-BQDitE42.jpg" srcset="/stp-8884/assets/map1x-BQDitE42.jpg 1x, /stp-8884/assets/map2x-DxphxQua.jpg 2x" alt="map"></li>
-    <li class="featuresItems"><p class="featuresText">Legendary Heroes <br>
-Build your team with uniquely skilled champions.</p> <img class="features-IMG" src="/stp-8884/assets/women1x-BTdvjpwK.jpg" srcset="/stp-8884/assets/women1x-BTdvjpwK.jpg 1x, /stp-8884/assets/women2x-FIqOB0XN.jpg 2x" alt="women"></li>
-    <li class="featuresItems"><p class="featuresText">PvP and PvE <br>
-Climb the leaderboard or master the story campaign.</p> <img class="features-IMG" src="/img/featuers/skull1x.jpg 1x," srcset="/stp-8884/assets/skull1x-BjJ4bKmm.jpg 1x, /stp-8884/assets/skull2x-XAeLjxpV.jpg 2x" alt="skull"></li>
-    <li class="featuresItems"><p class="featuresText">Guilds & Events <br>
-Join forces with others and fight in weekly events.</p> <img class="features-IMG" src="/stp-8884/assets/trophey1x-69Cq6Zyq.jpg" srcset="/stp-8884/assets/trophey1x-69Cq6Zyq.jpg 1x, /stp-8884/assets/trophey2x-BEyGqSua.jpg 2x" alt="trophey"></li>
-    <li class="featuresItems"><p class="featuresText">Stunning Visuals <br>
-High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-IMG" src="/stp-8884/assets/fireball1x-B1vM01Ot.jpg" srcset="/stp-8884/assets/fireball1x-B1vM01Ot.jpg 1x, /stp-8884/assets/fireball2x-Dik9P4_l.jpg 2x" alt="fireball"></li>
+
+    <li class="featuresItems"><p class="featuresText"><span  class="spanTitle">Tactical Combat </span><br/>
+Outsmart your enemies <br class="BR">with careful positioning and clever strategies.</p>
+<picture>
+    <source srcset="/stp-8884/assets/swordsDesktop1x-ndJRovQx.jpg 1x, /stp-8884/assets/swordsDesktop2x-3RUiYhG3.jpg 2x"  
+    media="(min-width: 1200px)">
+<img class="features-IMG" src="/stp-8884/assets/swords1x-D8l87Cnz.jpg" srcset="/stp-8884/assets/swords1x-D8l87Cnz.jpg 1x, /stp-8884/assets/swords2x-CLv3J3Ir.jpg 2x" alt="swords">
+</picture>
+</li>
+
+    <li class="featuresItems"><p class="featuresText"><span class="spanTitle">Dynamic Terrain  </span><br>
+Battle across varied maps where environment affects gameplay.</p> 
+<picture>
+    <source srcset="/stp-8884/assets/mapDesktop1x-2bdHwOfs.jpg 1x, /stp-8884/assets/mapDesktop2x-CG97-wDp.jpg 2x"
+    media="(min-width: 1200px)">
+<img class="features-IMG" src="/stp-8884/assets/map1x-BQDitE42.jpg" srcset="/stp-8884/assets/map1x-BQDitE42.jpg 1x, /stp-8884/assets/map2x-DxphxQua.jpg 2x" alt="map">
+</picture>
+</li>
+
+    <li class="featuresItems"><p class="featuresText"><span class="spanTitle">Legendary Heroes  </span><br>
+Build your team with uniquely skilled champions.</p> 
+<picture>
+    <source srcset="/stp-8884/assets/womenDesktop1x-B0s9WUWK.jpg 1x, /stp-8884/assets/womenDesktop2x-DC3aTnQU.jpg 2x"
+    media="(min-width: 1200px)">
+    <img class="features-IMG" src="/stp-8884/assets/women1x-BTdvjpwK.jpg" srcset="/stp-8884/assets/women1x-BTdvjpwK.jpg 1x, /stp-8884/assets/women2x-FIqOB0XN.jpg 2x" alt="women">
+</picture>
+</li>
+
+    <li class="featuresItems"><p class="featuresText"><span class="spanTitle">PvP and PvE  </span><br>
+Climb the leaderboard or master the story campaign.</p> 
+<picture>
+    <source srcset="/stp-8884/assets/skullDesktop1x-AxDex-is.jpg 1x, /stp-8884/assets/skullDesktop2x-Dv_X0e1Z.jpg 2x"
+    media="(min-width: 1200px)">
+    <img class="features-IMG" src="/img/featuers/skull1x.jpg 1x," srcset="/stp-8884/assets/skull1x-BjJ4bKmm.jpg 1x, /stp-8884/assets/skull2x-XAeLjxpV.jpg 2x" alt="skull">
+</picture>
+</li>
+
+    <li class="featuresItems"><p class="featuresText"><span class="spanTitle">Guilds & Events  </span><br>
+Join forces with others and fight in weekly events.</p> 
+<picture>
+    <source srcset="/stp-8884/assets/trophyDesktop1x-BmfUccpF.jpg 1x, /stp-8884/assets/trophyDesktop2x-BNtvgPXN.jpg 2x"
+    media="(min-width: 1200px)">
+    <img class="features-IMG" src="/stp-8884/assets/trophey1x-69Cq6Zyq.jpg" srcset="/stp-8884/assets/trophey1x-69Cq6Zyq.jpg 1x, /stp-8884/assets/trophey2x-BEyGqSua.jpg 2x" alt="trophey">
+</picture>
+</li>
+
+    <li class="featuresItems"><p class="featuresText"><span class="spanTitle">Stunning Visuals  </span><br>
+High-fidelity 3D graphics and hand-crafted animations.</p> 
+<picture>
+    <source srcset="/stp-8884/assets/fireballDesktop1x-D7Fe1WYs.jpg 1x, /stp-8884/assets/fireballDesktop2x-BlGaC1Z4.jpg 2x"
+    media="(min-width: 1200px)">
+    <img class="features-IMG" src="/stp-8884/assets/fireball1x-B1vM01Ot.jpg" srcset="/stp-8884/assets/fireball1x-B1vM01Ot.jpg 1x, /stp-8884/assets/fireball2x-Dik9P4_l.jpg 2x" alt="fireball">
+</picture>
+</li>
+
 </ul>
 </div>
 </section>
@@ -144,10 +206,10 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
         <p class="HTP-text">Position them wisely and use the environment to your advantage.</p>
     </li>
     <li class="HTP-items">3
-        <p class="HTP-text">Win battles to <br>unlock new heroes and gear.</p>
+        <p class="HTP-text">Win battles to <br class="brInHTP">unlock new heroes and gear.</p>
     </li>
     <li class="HTP-items">4
-        <p class="HTP-text">Upgrade your <br>roster and unlock special abilities.</p>
+        <p class="HTP-text">Upgrade your <br class="brInHTP">roster and unlock special abilities.</p>
     </li>
         <li class="HTP-items">5
         <p class="HTP-text">Participate in events, guild missions, and seasonal challenges.</p>
@@ -156,23 +218,21 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
 </div>
 </section>
 
-<!-- <svg class="svg-cloud" width="145" height="92">
-        <use href="img/sprite.svg#icon-cloud"></use>
-    </svg> -->
     <section id="trailer">
   <div class="container watch-wrapper">
     <h2 class="watch-title">Watch the trailer</h2>
+    <div class="wrapperForDesktop">
     <div class="wrapperForTrailerImg" id="videoWrapper">
       <picture id="videoPreviewWrapper">
         <source
-          srcset="/stp-8884/assets/trailer1x-BcvYTqDI.jpg 1x, /stp-8884/assets/trailer2x-BsOFcpAP.jpg 2x"
+          srcset="/stp-8884/assets/trailerDesktop1x-BcvYTqDI.png 1x, /stp-8884/assets/trailerDesktop2x-BsOFcpAP.png 2x"
           media="(min-width: 1200px)"
         />
         <img
           id="videoPreview"
           src="/stp-8884/assets/trailer1x-BukfEXkf.png"
-          srcset="/stp-8884/assets/trailer1x-BukfEXkf.png 1x, /stp-8884/assets/trailer2x-oTD4dDuA.png 2x"
-          alt=""
+          srcset="/stp-8884/assets/trailer2x-oTD4dDuA.png 2x"
+          alt="Trailer"
         />
       </picture>
     </div>
@@ -180,7 +240,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
       Discover the strategic depth and beauty of Rivengard – where every
       decision matters.
     </p>
-
+</div>
     <div id="videoModal">
   <div id="videoBackdrop">
     <div class="divStyle">
@@ -493,6 +553,7 @@ High-fidelity 3D graphics and hand-crafted animations.</p> <img class="features-
             <li class="footer-items"> All rights reserved fbgelazewj.xyz</li>
             <li class="footer-items">© 2025</li>
         </ul>
+        <p class="textForDesktop">All rights reserved fbgelazewj.xyz © 2025</p>
     </div>
 </footer>
 
