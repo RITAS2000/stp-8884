@@ -6,9 +6,9 @@ const observer = new IntersectionObserver(
   (entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        imageGirl.classList.add('visible');
+        imageGirl.setAttribute('data-show', 'true');
         setTimeout(() => {
-          imageBoy.classList.add('visible');
+          imageBoy.setAttribute('data-show', 'true');
         }, 1200);
         observer.disconnect();
       }

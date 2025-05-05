@@ -80,7 +80,7 @@
     opacity: 0;
     transition: top 2s ease, opacity 2s ease;
 }
-.battle-girl.visible {
+.battle-girl[data-show="true"] {
     top: -62px;
     opacity: 1;
 }
@@ -92,7 +92,7 @@
         width: 339px;
     }
 
-        .battle-girl.visible {
+        .battle-girl[data-show="true"] {
             top: -186px;
             opacity: 1;
         }
@@ -146,7 +146,7 @@
     opacity: 0;
     transition: top 2s ease, opacity 2s ease;
 }
-.battle-boy.visible {
+.battle-boy[data-show="true"] {
     top: -86px;
     opacity: 1;
 }
@@ -155,7 +155,7 @@
         top: -330px;
         width: 421px;
     }
-         .battle-boy.visible {
+         .battle-boy[data-show="true"] {
              top: -230px;
              opacity: 1;
          }

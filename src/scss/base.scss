@@ -2,29 +2,25 @@ body {
     background: #183B66;
 }
 
-[data-test="anime"]{
-    position: relative;
-}
 
-[data-test="anime"]::after {
+.link-clip {
+    position: relative;
+   
+    
+   
+}
+.link-clip::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
-    width: 100%;
+    bottom: -2px;
     height: 1px;
+    width: 100%;
     background-color: #fff;
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.4s ease;
+    clip-path: polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);
+    transition: clip-path 0.4s ease;
 }
 
-[data-test="anime"].show::after {
-    transform: scaleX(1);
-    transform-origin: center;
-}
-
-[data-test="anime"].hide::after {
-    transform: scaleX(0);
-    transform-origin: center;
+.link-clip:hover::after {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
