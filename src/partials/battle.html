@@ -6,8 +6,10 @@
         <div class="battle-img-container">
             <div class="battle-blue">
                 <picture>
-                    <source srcset="img/battle/girl2x1200.png" media="(min-width: 1200px)">
-                    <img src="img/battle/girl2x320.png" alt="Hero with arrow" width="112.85" class="battle-girl">
+                    <source srcset="img/battle/girl1x1200.png 1x, img/battle/girl2x1200.png 2x"
+                        media="(min-width: 1200px)">
+                    <img id="battle-girl" src="img/battle/girl1x320.png" srcset="img/battle/girl2x320.png 2x"
+                        alt="Hero with arrow" width="112.85" class="battle-girl">
                 </picture>
             </div>
             <div class="battle-vs">
@@ -21,16 +23,19 @@
             </div>
             <div class="battle-pink">
                 <picture>
-                    <source srcset="img/battle/boy2x1200.png" media="(min-width: 1200px)">
-                    <img src="img/battle/boy2x320.png" alt="Hero and drago" width="155.22" class="battle-boy">
+                    <source srcset="img/battle/boy1x1200.png 1x, img/battle/boy2x1200.png 2x"
+                        media="(min-width: 1200px)">
+                    <img id="battle-boy" src="img/battle/boy1x320.png" srcset="img/battle/boy2x320.png 2x"
+                        alt="Hero and drago" width="155.22" class="battle-boy">
                 </picture>
             </div>
         </div>
         <a class="battle-link" href="https://play.google.com/store/apps/details?id=com.king.hero.rpg.tactics&pli=1"
             target="_blank" rel="noopener noreferrer">
             <picture>
-                <source srcset="img/battle/play2x1200.png" media="(min-width: 1200px)">
-                <img src="img/battle/play2x320.png" alt="Google Play" width="212" class="battle-link-img">
+                <source srcset="img/battle/play1x1200.png 1x, img/battle/play2x1200.png 2x" media="(min-width: 1200px)">
+                <img src="img/battle/play1x320.png" srcset="img/battle/play2x320.png 2x" alt="Google Play" width="212"
+                    class="battle-link-img">
             </picture>
 
         </a>

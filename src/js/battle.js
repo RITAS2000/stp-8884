@@ -1,6 +1,6 @@
-const imageGirl = document.querySelector('.battle-girl');
+const imageGirl = document.querySelector('#battle-girl');
 const section = document.querySelector('#battle');
-const imageBoy = document.querySelector('.battle-boy');
+const imageBoy = document.querySelector('#battle-boy');
 
 const observer = new IntersectionObserver(
   (entries, observer) => {

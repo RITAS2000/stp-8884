@@ -52,7 +52,8 @@
     position: relative;
     width: 145px;
     height: 140px;
-    background-image: url('../img/battle/blue2x320.png');
+    background-image: image-set(url('../img/battle/blue1x320.png') 1x,
+            url('../img/battle/blue2x320.png') 2x);
     background-size: cover;
     background-position: center;    
     background-repeat: no-repeat;
@@ -64,7 +65,8 @@
         position: relative;
         width: 434px;
         height: 421px;
-        background-image: url('../img/battle/blue2x1200.png');
+        background-image: image-set(url('../img/battle/blue1x1200.png') 1x,
+                url('../img/battle/blue2x1200.png') 2x);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -114,7 +116,8 @@
     position: relative;
     width: 160px;
     height: 156px;
-    background-image: url('../img/battle/pink2x320.png');
+    background-image:image-set(url('../img/battle/pink1x320.png') 1x,
+            url('../img/battle/pink2x320.png') 2x);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -126,7 +129,8 @@
         position: relative;
         width: 434px;
         height: 421px;
-        background-image: url('../img/battle/pink2x1200.png');
+        background-image:image-set(url('../img/battle/pink1x1200.png') 1x,
+                url('../img/battle/pink2x1200.png') 2x);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -209,9 +213,25 @@
         }
 }
 .battle-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    width: 212px;
+    height: 56px;
+    margin-left: 54px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    
+}
+.battle-link:hover,
+ .battle-link:focus {
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 1);
+    transform: scale(1.02);
+}
+@media screen and (min-width:1200px) {
+.battle-link {
+        width: 295px;
+        height: 85px;
+        margin-left: 453px;
+    }
 }
 @media screen and (min-width:1200px) {
     .battle-link-img {
