@@ -31,7 +31,7 @@ font-weight: 700;
     font-size: 20px;
     margin-bottom: 40px;
     color: white;
-font-family: 'Lora', serif;
+font-family: 'Cinzel', serif;
 }
 .little-the {
 font-size: 14px;
@@ -40,4 +40,46 @@ color: white;
 
 .wrapper-GooglePlay {
     padding-bottom: 45px;
+}
+@media screen and (min-width: 1200px) {
+    .hero {
+            margin: 0 auto;
+            padding: 0 34px ;
+            background-image: url(../img/hero/bgDesctop1x.jpg);
+            max-width: 1200px
+        }
+                .hero-title {
+            padding-top: 156px;
+            margin-bottom: 40px;
+            font-weight: 700;
+            font-size: 48px;
+            color: #fff;
+            max-width: 743px;
+                }
+
+                .hero-dscr {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 81px;
+max-width: 657px;
+}
+.little-the {
+font-size: 14px;
+color: white;
+}
+
+.wrapper-GooglePlay {
+    display: inline-block;
+   
+}
+
+.pictureWrapper {
+    display: inline-block;
+}
+
+.linkForBtn {
+    display: inline-block;
+    height: 40px;
+    margin-bottom: 108px;
+}
 }

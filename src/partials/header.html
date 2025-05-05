@@ -3,11 +3,19 @@
 
     <a href="../index.html">
       <picture>
-        <source srcset="/img/header/Logo1x.png 1x, /img/header/Logo2x.png 2x"
+        <source srcset="/img/header/logoDesktop1x.png 1x, /img/header/logoDesktop2x.png 2x"
         media="(min-width: 1200px)">
       </picture>
-      <img src="/img/header/Logo1x.png" alt="Logo">
+      <img src="/img/header/Logo1x.png" srcset="/img/header/logoDesktop2x.png 2x" alt="Logo">
     </a>
+    <ul class="headerList">
+      <li class="headerItems"><a href="#about">About the game</a></li>
+      <li class="headerItems"><a href="#features">Features</a></li>
+      <li class="headerItems"><a href="#HTP">How to play</a></li>
+      <li class="headerItems"><a href="#trailer">Preview</a></li>
+      <li class="headerItems"><a href="#reviwes">User reviews</a></li>
+      <li class="headerItems"><a href="#faq">FAQ</a></li>
+    </ul>
     <button id="openModal" class="btnBurger"><svg width="31" height="21">
       <use href="/img/sprite.svg#icon-burger"></use>
     </svg></button>
