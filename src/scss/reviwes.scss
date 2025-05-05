@@ -151,7 +151,7 @@
     }
 }
 
-.falling-stars {
+#falling-stars {
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -160,7 +160,7 @@
     z-index: 999;
 }
 
-.star-image {
+[data-role="star-image"] {
     position: absolute;
     top: -30px;
     left: 50%;

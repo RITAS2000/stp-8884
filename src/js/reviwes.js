@@ -1,12 +1,12 @@
 import imgStar from '../img/reviwes/star.png';
 
-const container = document.querySelector('.falling-stars');
+const container = document.getElementById('falling-stars');
 
 function createStarImage() {
   const img = document.createElement('img');
   img.src = imgStar;
   console.log(img.src);
-  img.classList.add('star-image');
+  img.setAttribute('data-role', 'star-image');
   img.style.left = `${Math.random() * 100}vw`;
   img.style.top = `-30px`;
   img.style.animationDuration = `${Math.random() * 2 + 10}s`;
@@ -31,7 +31,9 @@ function stopFallingStars() {
   clearInterval(starInterval);
   document.removeEventListener('click', stopFallingStars);
 
-  document.querySelectorAll('.star-image').forEach(star => star.remove());
+  document
+    .querySelectorAll('[data-role="star-image"]')
+    .forEach(star => star.remove());
 }
 document.addEventListener('click', stopFallingStars);
 
