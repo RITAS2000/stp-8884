@@ -36,7 +36,7 @@ function stopFallingStars() {
 }
 document.addEventListener('click', stopFallingStars);
 
-const reviwesItems = document.querySelectorAll('.rewivse-item');
+const reviwesItems = document.querySelectorAll('[data-review="item"]');
 const section = document.querySelector('#reviwes');
 
 const observer = new IntersectionObserver(
