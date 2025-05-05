@@ -16,10 +16,10 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="/stp-8884/index.js"></script>
-  <link rel="modulepreload" crossorigin href="/stp-8884/assets/vendor-BcDFKbXm.js">
+  <script type="module" crossorigin src="/stp-8884/assets/vendor-BcDFKbXm.js"></script>
+  <script type="module" crossorigin src="/stp-8884/assets/main-TWYBF94o.js"></script>
+  <link rel="stylesheet" crossorigin href="/stp-8884/assets/main-l7Ddy4gl.css">
   <link rel="stylesheet" crossorigin href="/stp-8884/assets/vendor-DVz14bw_.css">
-  <link rel="stylesheet" crossorigin href="/stp-8884/assets/styles-DoA_teAR.css">
 </head>
 
 <body>
@@ -37,12 +37,12 @@
     </a>
     <nav class="headerNav">
       <ul class="headerList">
-        <li class="headerItems"><a href="#about">About the game</a></li>
-        <li class="headerItems"><a href="#features">Features</a></li>
-        <li class="headerItems"><a href="#HTP">How to play</a></li>
-        <li class="headerItems"><a href="#trailer">Preview</a></li>
-        <li class="headerItems"><a href="#reviwes">User reviews</a></li>
-        <li class="headerItems"><a href="#faq">FAQ</a></li>
+        <li class="headerItems" data-test="anime"><a href="#about">About the game</a></li>
+        <li class="headerItems" data-test="anime"><a href="#features">Features</a></li>
+        <li class="headerItems" data-test="anime"><a href="#HTP">How to play</a></li>
+        <li class="headerItems" data-test="anime"><a href="#trailer">Preview</a></li>
+        <li class="headerItems" data-test="anime"><a href="#reviwes">User reviews</a></li>
+        <li class="headerItems" data-test="anime"><a href="#faq">FAQ</a></li>
       </ul>
     </nav>
     <button id="openModal" class="btnBurger"><svg width="31" height="21">
@@ -131,64 +131,82 @@
     <section id="features">
     <div class="container features-wrapper">
         <h2 class="features-title">FEATURES</h2>
-<ul class="featuresList">
+        <ul class="featuresList">
 
-    <li class="featuresItems"><p class="featuresText"><span  class="spanTitle">Tactical Combat </span><br/>
-Outsmart your enemies <br class="BR">with careful positioning and clever strategies.</p>
-<picture>
-    <source srcset="/stp-8884/assets/swordsDesktop1x-ndJRovQx.jpg 1x, /stp-8884/assets/swordsDesktop2x-3RUiYhG3.jpg 2x"  
-    media="(min-width: 1200px)">
-<img class="features-IMG" src="/stp-8884/assets/swords1x-D8l87Cnz.jpg" srcset="/stp-8884/assets/swords1x-D8l87Cnz.jpg 1x, /stp-8884/assets/swords2x-CLv3J3Ir.jpg 2x" alt="swords">
-</picture>
-</li>
+            <li class="featuresItems">
+                <p class="featuresText"><span class="spanTitle">Tactical Combat </span><br />
+                    Outsmart your enemies <br class="BR">with careful positioning and clever strategies.</p>
+                <picture>
+                    <source
+                        srcset="/stp-8884/assets/swordsDesktop1x-ndJRovQx.jpg 1x, /stp-8884/assets/swordsDesktop2x-3RUiYhG3.jpg 2x"
+                        media="(min-width: 1200px)">
+                    <img class="features-IMG" src="/stp-8884/assets/swords1x-D8l87Cnz.jpg"
+                        srcset="/stp-8884/assets/swords1x-D8l87Cnz.jpg 1x, /stp-8884/assets/swords2x-CLv3J3Ir.jpg 2x" alt="swords">
+                </picture>
+            </li>
 
-    <li class="featuresItems"><p class="featuresText"><span class="spanTitle">Dynamic Terrain  </span><br>
-Battle across varied maps where environment affects gameplay.</p> 
-<picture>
-    <source srcset="/stp-8884/assets/mapDesktop1x-2bdHwOfs.jpg 1x, /stp-8884/assets/mapDesktop2x-CG97-wDp.jpg 2x"
-    media="(min-width: 1200px)">
-<img class="features-IMG" src="/stp-8884/assets/map1x-BQDitE42.jpg" srcset="/stp-8884/assets/map1x-BQDitE42.jpg 1x, /stp-8884/assets/map2x-DxphxQua.jpg 2x" alt="map">
-</picture>
-</li>
+            <li class="featuresItems">
+                <p class="featuresText"><span class="spanTitle">Dynamic Terrain  </span><br>
+                    Battle across varied maps where environment affects gameplay.</p>
+                <picture>
+                    <source
+                        srcset="/stp-8884/assets/mapDesktop1x-2bdHwOfs.jpg 1x, /stp-8884/assets/mapDesktop2x-CG97-wDp.jpg 2x"
+                        media="(min-width: 1200px)">
+                    <img class="features-IMG" src="/stp-8884/assets/map1x-BQDitE42.jpg"
+                        srcset="/stp-8884/assets/map1x-BQDitE42.jpg 1x, /stp-8884/assets/map2x-DxphxQua.jpg 2x" alt="map">
+                </picture>
+            </li>
 
-    <li class="featuresItems"><p class="featuresText"><span class="spanTitle">Legendary Heroes  </span><br>
-Build your team with uniquely skilled champions.</p> 
-<picture>
-    <source srcset="/stp-8884/assets/womenDesktop1x-B0s9WUWK.jpg 1x, /stp-8884/assets/womenDesktop2x-DC3aTnQU.jpg 2x"
-    media="(min-width: 1200px)">
-    <img class="features-IMG" src="/stp-8884/assets/women1x-BTdvjpwK.jpg" srcset="/stp-8884/assets/women1x-BTdvjpwK.jpg 1x, /stp-8884/assets/women2x-FIqOB0XN.jpg 2x" alt="women">
-</picture>
-</li>
+            <li class="featuresItems">
+                <p class="featuresText"><span class="spanTitle">Legendary Heroes </span><br>
+                    Build your team with uniquely skilled champions.</p>
+                <picture>
+                    <source
+                        srcset="/stp-8884/assets/womenDesktop1x-B0s9WUWK.jpg 1x, /stp-8884/assets/womenDesktop2x-DC3aTnQU.jpg 2x"
+                        media="(min-width: 1200px)">
+                    <img class="features-IMG" src="/stp-8884/assets/women1x-BTdvjpwK.jpg"
+                        srcset="/stp-8884/assets/women1x-BTdvjpwK.jpg 1x, /stp-8884/assets/women2x-FIqOB0XN.jpg 2x" alt="women">
+                </picture>
+            </li>
 
-    <li class="featuresItems"><p class="featuresText"><span class="spanTitle">PvP and PvE  </span><br>
-Climb the leaderboard or master the story campaign.</p> 
-<picture>
-    <source srcset="/stp-8884/assets/skullDesktop1x-AxDex-is.jpg 1x, /stp-8884/assets/skullDesktop2x-Dv_X0e1Z.jpg 2x"
-    media="(min-width: 1200px)">
-    <img class="features-IMG" src="/img/featuers/skull1x.jpg 1x," srcset="/stp-8884/assets/skull1x-BjJ4bKmm.jpg 1x, /stp-8884/assets/skull2x-XAeLjxpV.jpg 2x" alt="skull">
-</picture>
-</li>
+            <li class="featuresItems">
+                <p class="featuresText"><span class="spanTitle">PvP and PvE </span><br>
+                    Climb the leaderboard or master the story campaign.</p>
+                <picture>
+                    <source
+                        srcset="/stp-8884/assets/skullDesktop1x-AxDex-is.jpg 1x, /stp-8884/assets/skullDesktop2x-Dv_X0e1Z.jpg 2x"
+                        media="(min-width: 1200px)">
+                    <img class="features-IMG" src="/img/featuers/skull1x.jpg 1x,"
+                        srcset="/stp-8884/assets/skull1x-BjJ4bKmm.jpg 1x, /stp-8884/assets/skull2x-XAeLjxpV.jpg 2x" alt="skull">
+                </picture>
+            </li>
 
-    <li class="featuresItems"><p class="featuresText"><span class="spanTitle">Guilds & Events  </span><br>
-Join forces with others and fight in weekly events.</p> 
-<picture>
-    <source srcset="/stp-8884/assets/trophyDesktop1x-BmfUccpF.jpg 1x, /stp-8884/assets/trophyDesktop2x-BNtvgPXN.jpg 2x"
-    media="(min-width: 1200px)">
-    <img class="features-IMG" src="/stp-8884/assets/trophey1x-69Cq6Zyq.jpg" srcset="/stp-8884/assets/trophey1x-69Cq6Zyq.jpg 1x, /stp-8884/assets/trophey2x-BEyGqSua.jpg 2x" alt="trophey">
-</picture>
-</li>
+            <li class="featuresItems">
+                <p class="featuresText"><span class="spanTitle">Guilds & Events </span><br>
+                    Join forces with others and fight in weekly events.</p>
+                <picture>
+                    <source
+                        srcset="/stp-8884/assets/trophyDesktop1x-BmfUccpF.jpg 1x, /stp-8884/assets/trophyDesktop2x-BNtvgPXN.jpg 2x"
+                        media="(min-width: 1200px)">
+                    <img class="features-IMG" src="/stp-8884/assets/trophey1x-69Cq6Zyq.jpg"
+                        srcset="/stp-8884/assets/trophey1x-69Cq6Zyq.jpg 1x, /stp-8884/assets/trophey2x-BEyGqSua.jpg 2x" alt="trophey">
+                </picture>
+            </li>
 
-    <li class="featuresItems"><p class="featuresText"><span class="spanTitle">Stunning Visuals  </span><br>
-High-fidelity 3D graphics and hand-crafted animations.</p> 
-<picture>
-    <source srcset="/stp-8884/assets/fireballDesktop1x-D7Fe1WYs.jpg 1x, /stp-8884/assets/fireballDesktop2x-BlGaC1Z4.jpg 2x"
-    media="(min-width: 1200px)">
-    <img class="features-IMG" src="/stp-8884/assets/fireball1x-B1vM01Ot.jpg" srcset="/stp-8884/assets/fireball1x-B1vM01Ot.jpg 1x, /stp-8884/assets/fireball2x-Dik9P4_l.jpg 2x" alt="fireball">
-</picture>
-</li>
+            <li class="featuresItems">
+                <p class="featuresText"><span class="spanTitle">Stunning Visuals </span><br>
+                    High-fidelity 3D graphics and hand-crafted animations.</p>
+                <picture>
+                    <source
+                        srcset="/stp-8884/assets/fireballDesktop1x-D7Fe1WYs.jpg 1x, /stp-8884/assets/fireballDesktop2x-BlGaC1Z4.jpg 2x"
+                        media="(min-width: 1200px)">
+                    <img class="features-IMG" src="/stp-8884/assets/fireball1x-B1vM01Ot.jpg"
+                        srcset="/stp-8884/assets/fireball1x-B1vM01Ot.jpg 1x, /stp-8884/assets/fireball2x-Dik9P4_l.jpg 2x" alt="fireball">
+                </picture>
+            </li>
 
-</ul>
-</div>
+        </ul>
+    </div>
 </section>
     <section id="HTP">
     <div class="container HTP-wrapper">
@@ -543,9 +561,9 @@ High-fidelity 3D graphics and hand-crafted animations.</p>
   <footer>
     <div class="container footer-wrapper">
         <ul class="footer-list">
-            <li class="footer-items"><a href="./terms.html">Terms & Conditions</a></li>
-            <li class="footer-items"><a href="./privacy.html">Privacy Policy</a></li>
-            <li class="footer-items"><a href="./cookies.html">Cookie Policy</a></li>
+            <li class="footer-items"><a href="./terms.html" data-test="anime">Terms & Conditions</a></li>
+            <li class="footer-items"><a href="./privacy.html" data-test="anime">Privacy Policy</a></li>
+            <li class="footer-items"><a href="./cookies.html" data-test="anime">Cookie Policy</a></li>
             <li class="footer-items"> All rights reserved fbgelazewj.xyz</li>
             <li class="footer-items">© 2025</li>
         </ul>
