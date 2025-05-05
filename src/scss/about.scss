@@ -23,44 +23,23 @@ font-weight: 700;
         color: white;
 }
 
-.features-title {
-display: flex;
-justify-content: center;
-    margin: 80px 0 36px 0;
-    color: white;
-font-family: 'Cinzel', serif;
+
+// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop
+@media screen and (min-width: 1200px) {
+.about-Title {
+        margin: 120px 0 60px;
+        font-size: 32px;
 }
-
-
-.features-wrapper {
-    padding: 0 17px;
-}
-
-.featuresList {
+.wrapperDesktop {
     display: flex;
-    flex-direction: column;
-    gap: 36px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
 }
 
-.featuresItems {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+.aboutDescription{ 
+    max-width: 550px;
+    font-size: 20px;
 }
 
-.featuresItems:nth-child(even) {
-    flex-direction: row-reverse;
-    text-align: left;
-}
-
-.features-IMG {
-    border-radius: 100px;
-}
-.featuresText {
-    font-family: 'Lora', serif;
-    font-weight: 400;
-        font-size: 14px;
-    color: white;
 }
