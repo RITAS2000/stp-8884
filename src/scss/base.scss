@@ -1,3 +1,30 @@
 body {
     background: #183B66;
 }
+
+[data-test="anime"]{
+    position: relative;
+}
+
+[data-test="anime"]::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.4s ease;
+}
+
+[data-test="anime"].show::after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+[data-test="anime"].hide::after {
+    transform: scaleX(0);
+    transform-origin: center;
+}

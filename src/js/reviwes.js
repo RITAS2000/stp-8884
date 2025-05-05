@@ -56,3 +56,17 @@ const observer = new IntersectionObserver(
 );
 
 observer.observe(section);
+
+const links = document.querySelectorAll('[data-test="anime"]');
+
+links.forEach(link => {
+  link.addEventListener('mouseenter', () => {
+    link.classList.remove('hide');
+    link.classList.add('show');
+  });
+
+  link.addEventListener('mouseleave', () => {
+    link.classList.remove('show');
+    link.classList.add('hide');
+  });
+});
