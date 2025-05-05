@@ -143,6 +143,11 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 // Desktop // Desktop // Desktop // Desktop // Desktop // Desktop // Desktop 
  @media screen and (min-width: 1200px) {
+
+  .header-logo {
+    width: 187.83px;
+    height: 80px;
+  }
   .header-wrapper {
     align-items: center;
     justify-content: center;
