@@ -47,3 +47,21 @@ position: relative;
     width: 80%;
     max-width: 800px
 }
+//// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop Desktop
+ @media screen and (min-width: 1200px) {
+    .watch-title {
+        margin-top: 120px;
+        margin-bottom: 40px;
+font-size: 24px;
+        }
+    .watchText {
+        display: flex;
+font-size: 32px;
+    }
+    .wrapperForDesktop {
+        max-width: 936px;
+    }
+    .watch-wrapper {
+        padding-bottom: 60px;
+    }
+ }
