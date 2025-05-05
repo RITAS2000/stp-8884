@@ -44,7 +44,14 @@ height: 100%;
   position: relative;
 }
 
+.wrapperInBurger {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+}
+
 .close {
+  margin-left: auto;
   padding: 22px 32px 0 0;
   margin-left: auto;
 background: none;
@@ -136,6 +143,10 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     padding: 6px 36px 6px 23px;
   }
   
+  .headerNav {
+    margin-left: auto;
+  }
+
     .btnBurger {
       display: none;
     }

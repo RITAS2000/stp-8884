@@ -64,3 +64,23 @@ font-family: 'Cinzel', serif;
         font-size: 14px;
     color: white;
 }
+
+// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop
+@media screen and (min-width: 1200px) {
+.about-Title {
+        margin: 120px 0 60px;
+        font-size: 32px;
+}
+.wrapperDesktop {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutDescription{ 
+    max-width: 550px;
+    font-size: 20px;
+}
+
+}
