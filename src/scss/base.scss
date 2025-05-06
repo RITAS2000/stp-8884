@@ -1,3 +1,26 @@
 body {
     background: #183B66;
 }
+
+
+.link-clip {
+    position: relative;
+   
+    
+   
+}
+.link-clip::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    clip-path: polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);
+    transition: clip-path 0.4s ease;
+}
+
+.link-clip:hover::after {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}

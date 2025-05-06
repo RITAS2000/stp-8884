@@ -4,3 +4,5 @@ import './js/faq.js';
 import './js/battle.js';
 import './js/modal.js';
 import './js/popup.js';
+import './js/reviwes.js';
+import './js/stars.js';

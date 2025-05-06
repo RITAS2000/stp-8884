@@ -1,14 +1,14 @@
-const imageGirl = document.querySelector('.battle-girl');
+const imageGirl = document.querySelector('#battle-girl');
 const section = document.querySelector('#battle');
-const imageBoy = document.querySelector('.battle-boy');
+const imageBoy = document.querySelector('#battle-boy');
 
 const observer = new IntersectionObserver(
   (entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        imageGirl.classList.add('visible');
+        imageGirl.setAttribute('data-show', 'true');
         setTimeout(() => {
-          imageBoy.classList.add('visible');
+          imageBoy.setAttribute('data-show', 'true');
         }, 1200);
         observer.disconnect();
       }

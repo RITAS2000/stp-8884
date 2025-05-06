@@ -47,17 +47,18 @@
 li.faq-item {
   width: 291px;
   border-top: 2px solid #ffd700;
-  padding: 16px 10px 14px 10px;
+  padding: 16px 0 14px 0;
   margin-bottom: 0;
   background-color: transparent;
   border-bottom: none;
   border-left: none;
   border-right: none;
+  border-radius: 8px;
 }
 @media screen and (min-width:1200px) {
   li.faq-item {
       width: 840px;
-      padding: 16px 10px 20px 10px;
+      padding: 16px 0 20px 0;
     }
 }
 
@@ -78,7 +79,7 @@ li.faq-item {
 .is-active .faq-icon-down {
   transform: rotate(90deg);
   top:0px;
-  right: 0px;
+  right: -1px;
 }
 .faq-button {
   position: relative;
@@ -86,11 +87,18 @@ li.faq-item {
   border: none;
   width: 20px;
   height: 20px;
+  margin-right: 16.92px;
+}
+@media screen and (min-width:1200px) {
+  .is-active .faq-icon-down {
+      right: 3px;
+    }
 }
 @media screen and (min-width:1200px) {
   .faq-button {
     width: 30px;
     height: 30px;
+    margin-right: 23.19px;
   }
 }
 .faq-title-container {
@@ -103,9 +111,10 @@ li.faq-item {
   font-weight: 400;
   font-size: 10px;
   color: #000;
-  padding: 10px 9px 19px 9px;
+  padding: 10px 9px 10px 9px;
   background: #A2D5F2;
-  border-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 @media screen and (min-width:1200px) {
   .faq-text {
@@ -121,11 +130,28 @@ li.faq-item {
   font-size: 14px;
   color: #fff;
   margin-bottom: 16px;
+  margin-left: 10px;
 }
 
 @media screen and (min-width:1200px) {
 .faq-title {
     font-size: 24px;
     margin-bottom: 23px;
+  }
+}
+
+.is-active .faq-title {
+  animation: pulseScaleColor 1.2s ease-in-out infinite;
+}
+
+@keyframes pulseScaleColor {
+
+  0%,
+  100% {
+    text-shadow: none;
+  }
+
+  50% {
+    text-shadow: 0 0 12px rgba(255, 215, 0, 0.9);
   }
 }

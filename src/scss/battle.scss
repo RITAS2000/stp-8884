@@ -52,7 +52,8 @@
     position: relative;
     width: 145px;
     height: 140px;
-    background-image: url('../img/battle/blue2x320.png');
+    background-image: image-set(url('../img/battle/blue1x320.png') 1x,
+            url('../img/battle/blue2x320.png') 2x);
     background-size: cover;
     background-position: center;    
     background-repeat: no-repeat;
@@ -64,7 +65,8 @@
         position: relative;
         width: 434px;
         height: 421px;
-        background-image: url('../img/battle/blue2x1200.png');
+        background-image: image-set(url('../img/battle/blue1x1200.png') 1x,
+                url('../img/battle/blue2x1200.png') 2x);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -78,7 +80,7 @@
     opacity: 0;
     transition: top 2s ease, opacity 2s ease;
 }
-.battle-girl.visible {
+.battle-girl[data-show="true"] {
     top: -62px;
     opacity: 1;
 }
@@ -90,7 +92,7 @@
         width: 339px;
     }
 
-        .battle-girl.visible {
+        .battle-girl[data-show="true"] {
             top: -186px;
             opacity: 1;
         }
@@ -114,7 +116,8 @@
     position: relative;
     width: 160px;
     height: 156px;
-    background-image: url('../img/battle/pink2x320.png');
+    background-image:image-set(url('../img/battle/pink1x320.png') 1x,
+            url('../img/battle/pink2x320.png') 2x);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -126,7 +129,8 @@
         position: relative;
         width: 434px;
         height: 421px;
-        background-image: url('../img/battle/pink2x1200.png');
+        background-image:image-set(url('../img/battle/pink1x1200.png') 1x,
+                url('../img/battle/pink2x1200.png') 2x);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -142,7 +146,7 @@
     opacity: 0;
     transition: top 2s ease, opacity 2s ease;
 }
-.battle-boy.visible {
+.battle-boy[data-show="true"] {
     top: -86px;
     opacity: 1;
 }
@@ -151,7 +155,7 @@
         top: -330px;
         width: 421px;
     }
-         .battle-boy.visible {
+         .battle-boy[data-show="true"] {
              top: -230px;
              opacity: 1;
          }
@@ -209,12 +213,119 @@
         }
 }
 .battle-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    width: 212px;
+    height: 56px;
+    margin-left: 54px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    
+}
+.battle-link:hover,
+ .battle-link:focus {
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 1);
+    transform: scale(1.02);
+}
+@media screen and (min-width:1200px) {
+.battle-link {
+        width: 295px;
+        height: 85px;
+        margin-left: 453px;
+    }
 }
 @media screen and (min-width:1200px) {
     .battle-link-img {
         width: 295px;
+    }
+}
+
+.battle-text span {
+    display: inline-block;
+    color: white;
+    animation: wordColorCycle 8s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+.battle-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.battle-text span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.battle-text span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.battle-text span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.battle-text span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.battle-text span:nth-child(6) {
+    animation-delay: 1s;
+}
+
+.battle-text span:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+.battle-text span:nth-child(8) {
+    animation-delay: 1.4s;
+}
+
+.battle-text span:nth-child(9) {
+    animation-delay: 1.6s;
+}
+
+.battle-text span:nth-child(10) {
+    animation-delay: 1.8s;
+}
+
+.battle-text span:nth-child(11) {
+    animation-delay: 2s;
+}
+
+.battle-text span:nth-child(12) {
+    animation-delay: 2.2s;
+}
+
+.battle-text span:nth-child(13) {
+    animation-delay: 2.4s;
+}
+.battle-text span:nth-child(14) {
+    animation-delay: 2.6s;
+}
+@keyframes wordColorCycle {
+    0% {
+        color: white;
+    }
+
+    10% {
+        color: #4caf50;
+    }
+
+    20% {
+        color: #f44336;
+    }
+
+    30% {
+        color: #ffd700;
+    }
+
+    40% {
+        color: #9c27b0;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: white;
     }
 }

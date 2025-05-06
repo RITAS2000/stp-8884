@@ -5,7 +5,7 @@ import 'swiper/css/navigation';
 
 Swiper.use([Navigation, Keyboard]);
 
-const swiper = new Swiper('.swiper-ingame', {
+const swiper = new Swiper('[data-swiper="ingame"]', {
   slidesPerView: 1,
   spaceBetween: 24,
   keyboard: {
@@ -13,8 +13,8 @@ const swiper = new Swiper('.swiper-ingame', {
     onlyInViewport: true,
   },
   navigation: {
-    nextEl: '.arrow-right',
-    prevEl: '.arrow-left',
+    nextEl: '[data-arrow="next"]',
+    prevEl: '[data-arrow="prev"]',
   },
   a11y: true,
   breakpoints: {
