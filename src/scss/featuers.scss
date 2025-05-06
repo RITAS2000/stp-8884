@@ -39,32 +39,39 @@
     font-size: 14px;
     color: white;
 }
+
 // Desktop// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop
 @media screen and (min-width: 1200px) {
     .features-title {
         font-size: 32px;
-        margin: 100px  0 60px 0
+        margin: 100px 0 60px 0
     }
+
     .BR {
         display: none;
     }
+
     .spanTitle {
         font-size: 24px;
     }
 
-.featuresText {
-    font-size: 20px;
-}
-.featuresItems{ 
-    gap: 45px;
-}
-.featuresItems:nth-child(even) {
-    margin-right: auto;
-}
-.featuresItems:nth-child(odd) {
-    margin-left: auto;
-}
-.features-wrapper {
-    padding: 0 70px;
-}
+    .featuresText {
+        font-size: 20px;
+    }
+
+    .featuresItems {
+        gap: 45px;
+    }
+
+    .featuresItems:nth-child(even) {
+        margin-right: auto;
+    }
+
+    .featuresItems:nth-child(odd) {
+        margin-left: auto;
+    }
+
+    .features-wrapper {
+        padding: 0 70px;
+    }
 }

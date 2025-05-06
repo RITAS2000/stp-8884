@@ -5,45 +5,50 @@
     justify-content: center;
     align-items: center;
 }
+
 .about-Title {
     font-family: 'Cinzel', serif;
     display: flex;
     margin: 80px 0 36px;
-font-weight: 700;
+    font-weight: 700;
     font-size: 20px;
-        color: white;
+    color: white;
 }
+
 .abotIMG {
     margin-bottom: 14px;
 }
+
 .aboutDescription {
     font-weight: 400;
-        font-size: 14px;
-        font-family: 'Lora', serif;
-        color: white;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    color: white;
 }
 
 
 // Desktop// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop
 @media screen and (min-width: 1200px) {
+
 .abotIMG {
     width: 551px;
     height: 339px;
 }
 .about-Title {
+
         margin: 120px 0 60px;
         font-size: 32px;
-}
-.wrapperDesktop {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-}
+    }
 
-.aboutDescription{ 
-    max-width: 550px;
-    font-size: 20px;
-}
+    .wrapperDesktop {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .aboutDescription {
+        max-width: 550px;
+        font-size: 20px;
+    }
 }

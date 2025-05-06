@@ -1,26 +1,25 @@
-
 .hero {
     margin: 0 auto;
     padding: 0 68px 0 17px;
-        background-image: url(../img/hero/bgDesctop1x.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            max-width: 320px;
+    background-image: url(../img/hero/bgDesctop1x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 320px;
 }
 
-
-@media  (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
     .hero {
         background-image: url(../img/hero/bgDesctop2x.jpg)
     }
 }
 
 .hero-title {
-font-family: 'Cinzel', serif;
-   padding-top: 76px; 
-   margin-bottom: 8px;
-font-weight: 700;
+    font-family: 'Cinzel', serif;
+    padding-top: 76px;
+    margin-bottom: 8px;
+    font-weight: 700;
     font-size: 32px;
     max-width: 230px;
     color: white;
@@ -31,55 +30,59 @@ font-weight: 700;
     font-size: 20px;
     margin-bottom: 40px;
     color: white;
-font-family: 'Cinzel', serif;
+    font-family: 'Cinzel', serif;
 }
+
 .little-the {
-font-size: 14px;
-color: white;
+    font-size: 14px;
+    color: white;
 }
 
 .wrapper-GooglePlay {
     padding-bottom: 45px;
 }
+
 @media screen and (min-width: 1200px) {
     .hero {
-            margin: 0 auto;
-            padding: 0 34px ;
-            background-image: url(../img/hero/bgDesctop1x.jpg);
-            max-width: 1200px
-        }
-                .hero-title {
-            padding-top: 156px;
-            margin-bottom: 40px;
-            font-weight: 700;
-            font-size: 48px;
-            color: #fff;
-            max-width: 743px;
-                }
+        margin: 0 auto;
+        padding: 0 34px;
+        background-image: url(../img/hero/bgDesctop1x.jpg);
+        max-width: 1200px
+    }
 
-                .hero-dscr {
-    font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 81px;
-max-width: 657px;
-}
-.little-the {
-font-size: 14px;
-color: white;
-}
+    .hero-title {
+        padding-top: 156px;
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 48px;
+        color: #fff;
+        max-width: 743px;
+    }
 
-.wrapper-GooglePlay {
-    display: inline-block;
-   padding-bottom: 0;
-}
+    .hero-dscr {
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 81px;
+        max-width: 657px;
+    }
 
-.pictureWrapper {
-    display: inline-block;
-}
+    .little-the {
+        font-size: 14px;
+        color: white;
+    }
 
-.linkForBtn {
-    display: inline-block;
-    height: 52px;
-    margin-bottom: 108px;
-}
+    .wrapper-GooglePlay {
+        display: inline-block;
+        padding-bottom: 0;
+    }
+
+    .pictureWrapper {
+        display: inline-block;
+    }
+
+    .linkForBtn {
+        display: inline-block;
+        height: 52px;
+        margin-bottom: 108px;
+    }
 }

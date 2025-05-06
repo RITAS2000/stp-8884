@@ -1,61 +1,82 @@
 footer {
     background-color: rgba(33, 74, 125, 1);
-    box-shadow:0 -4px 6px rgb(13, 77, 156), 0 -4px 8px #f8f8f6;
+    box-shadow: 0 -4px 6px rgb(13, 77, 156), 0 -4px 8px #f8f8f6;
+
 }
+
 .footer-wrapper {
     padding: 25px 80px 25px 19px;
 }
+
 .footer-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .footer-items {
     font-weight: 400;
-        font-size: 14px;
-        color: #fff;
-        font-family: 'Lora', serif;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Lora', serif;
 }
+
 .footerSpan {
     display: none;
 }
+
+.textForDesktop {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+}
+
 //// Desktop// Desktop// Desktop// Desktop// Desktop Desktop// Desktop// Desktop
 @media screen and (min-width: 1200px) {
     .footerSpan {
         display: block;
     }
-    .footer-wrapper {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-            padding: 78px 0 26px 0;
-    }
-        .footer-list {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            text-align: center;
-            flex-wrap: wrap;
-            gap: 110px;
-            justify-content: flex-start;
-        }
-        .footer-items {
-            font-size: 24px;
-            font-family: 'Lora' ,serif;
-        }
 
-        .footer-items:nth-child(4) {
-display: none;
-        }
-        .footer-items:nth-child(5) {
-           display: none;
-        }
-        .textForDesktop {
-margin-top: 52px;
-font-weight: 400;
-    font-size: 18px;
-                font-family: 'Lora', serif;
-    color: #fff;
-        }
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 78px 0 26px 0;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 110px;
+        justify-content: flex-start;
+    }
+
+    .footer-items {
+        font-size: 24px;
+        font-family: 'Lora', serif;
+    }
+
+    .footer-items:nth-child(4) {
+        display: none;
+    }
+
+    .footer-items:nth-child(5) {
+        display: none;
+    }
+
+    .textForDesktop {
+        margin-top: 52px;
+        font-weight: 400;
+        font-size: 18px;
+        font-family: 'Lora', serif;
+        color: #fff;
+        flex-direction: row;
+        margin-top: 52px;
+        gap: 40PX;
+    }
 }
