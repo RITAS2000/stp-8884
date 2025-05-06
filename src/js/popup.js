@@ -27,6 +27,10 @@ window.addEventListener('DOMContentLoaded', () => {
   if (!consent) {
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
+    modal.style.visibility = 'visible';
+    modal.style.opacity = '1';
+  } else {
+    document.body.style.overflow = '';
   }
 
   const handleButtonClick = buttonId => {
