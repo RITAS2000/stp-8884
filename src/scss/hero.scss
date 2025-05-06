@@ -1,6 +1,6 @@
 .hero {
     margin: 0 auto;
-    padding: 0 68px 0 17px;
+    padding: 0 68px 45px 17px;
     background-image: url(../img/hero/bgDesctop1x.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -37,15 +37,24 @@
     font-size: 14px;
     color: white;
 }
-
-.wrapper-GooglePlay {
-    padding-bottom: 45px;
-}
-
+ .linkForBtn {
+     display: block;
+     width: 180px;
+     height: 52px;
+     border-radius: 6px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    
+    }
+    
+    .linkForBtn:hover,
+    .linkForBtn:focus {
+        box-shadow: 0 0 8px 2px rgba(255, 255, 255, 1);
+        transform: scale(1.02);
+    }
 @media screen and (min-width: 1200px) {
     .hero {
         margin: 0 auto;
-        padding: 0 34px;
+        padding: 0 34px 108px 34px;
         background-image: url(../img/hero/bgDesctop1x.jpg);
         max-width: 1200px
     }
@@ -72,17 +81,12 @@
     }
 
     .wrapper-GooglePlay {
-        display: inline-block;
+        display: block;
         padding-bottom: 0;
     }
 
     .pictureWrapper {
-        display: inline-block;
+        display: block;
     }
 
-    .linkForBtn {
-        display: inline-block;
-        height: 52px;
-        margin-bottom: 108px;
-    }
 }
