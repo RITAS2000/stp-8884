@@ -19,6 +19,9 @@ align-items: center;
 }
 
 .wrapperForTrailerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 .watchText {
