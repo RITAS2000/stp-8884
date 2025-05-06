@@ -139,3 +139,19 @@ li.faq-item {
     margin-bottom: 23px;
   }
 }
+
+.is-active .faq-title {
+  animation: pulseScaleColor 1.2s ease-in-out infinite;
+}
+
+@keyframes pulseScaleColor {
+
+  0%,
+  100% {
+    text-shadow: none;
+  }
+
+  50% {
+    text-shadow: 0 0 12px rgba(255, 215, 0, 0.9);
+  }
+}
