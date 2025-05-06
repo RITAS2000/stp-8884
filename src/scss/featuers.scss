@@ -10,6 +10,9 @@
     padding: 0 17px;
 }
 
+ .spanTitle {
+     animation: starColorShift 3s linear infinite;
+ }
 .featuresList {
     display: flex;
     flex-direction: column;
@@ -56,6 +59,7 @@
     }
     .spanTitle {
         font-size: 24px;
+        animation: starColorShift 3s linear infinite;
     }
     .featuresText {
         font-size: 20px;
@@ -86,4 +90,24 @@
 
 }
 
-  
+  @keyframes starColorShift {
+      0% {
+          color: #ffffff;
+          /* білий */
+      }
+
+      30% {
+          color: #fff59e;
+          /* світло-жовтий */
+      }
+
+      70% {
+          color: #f5df65;
+          /* золотий */
+      }
+
+      100% {
+          color: #ffffff;
+          /* назад до білого */
+      }
+    }
