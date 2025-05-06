@@ -141,17 +141,17 @@ li.faq-item {
 }
 
 .is-active .faq-title {
-  animation: pulseScaleColor 1.2s ease-in-out infinite;
+  animation: pulseScaleColor 2s ease-in-out infinite;
 }
 
 @keyframes pulseScaleColor {
 
   0%,
   100% {
-    text-shadow: none;
+    color: #fff;
   }
 
   50% {
-    text-shadow: 0 0 12px rgba(255, 215, 0, 0.9);
+    color: rgba(65, 235, 79, 0.9);
   }
 }
