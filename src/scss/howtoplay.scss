@@ -99,3 +99,39 @@
         display: none;
     }
 }
+.HTP-items span {
+    display: inline-block;
+    color: white;
+    animation: numberColorCycle 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes numberColorCycle {
+    0% {
+        color: white; 
+    }
+
+    10% {
+        color: #26b9dd;
+    }
+
+    20% {
+        color: #9c27b0;
+    }
+
+    30% {
+        color: #e72d20;
+    }
+
+    40% {
+        color: #4caf50;
+    }
+
+    50% {
+        color: #ffd700;
+    }
+
+    100% {
+        color: white;
+    }
+}
