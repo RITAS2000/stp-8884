@@ -62,12 +62,14 @@
         width: 552px;
     }
     .featuresList {
+
         margin-left: 132px;
         margin-right: 132px;
         padding: 31px 103px;
         box-shadow: 1px 2px 8px 6px #f8f8f8;
         background: #214A7D;
         border-radius: 16px;
+        gap: 10px
     }
     .fue-text-continer {
         display: flex;
@@ -77,6 +79,11 @@
     .featuresItems {
         gap: 38px;
     }
+        .featuresItems:not(:last-child) {
+            border-bottom: 1px solid #fff;
+            padding-bottom: 10px;
+        }
+
 }
 
   
