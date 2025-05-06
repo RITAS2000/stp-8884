@@ -1,4 +1,3 @@
-
 .termsSection {
     background-color: rgba(162, 213, 242, 1);
 }
@@ -6,7 +5,7 @@
 ol {
     margin: 0;
     padding: 0 16px;
-    
+
 }
 
 .headOfTerms {
@@ -15,7 +14,7 @@ ol {
     align-items: center;
     gap: 16px;
     margin-bottom: 54px;
-    
+
 }
 
 .terms-wrapper {
@@ -24,55 +23,55 @@ ol {
 
 .linkInTerms {
     font-weight: 400;
-        font-size: 14px;
-        color: #000;
-        font-family: 'Lora', serif;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-gap: 16px;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 }
 
 .termsTitle {
     font-weight: 700;
-        font-size: 20px;
-        color: #000;
-        font-family: 'Cinzel', serif;
-        margin-bottom: 20px;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 20px;
 }
 
 .termsText {
     font-weight: 400;
-        font-size: 14px;
-        color: #000;
-        font-family: 'Lora', serif;
-        margin-bottom: 20px;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Lora', serif;
+    margin-bottom: 20px;
 }
 
 .termsList {
     display: flex;
     flex-direction: column;
     font-weight: 700;
-        font-size: 20px;
-        color: #000;
-        font-family: 'Cinzel', serif;
-        gap: 20px;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Cinzel', serif;
+    gap: 20px;
 }
 
 .textInItems-terms {
     margin-top: 20px;
     font-weight: 400;
-        font-size: 14px;
-        color: #000;
-        font-family: 'Lora', serif;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Lora', serif;
 }
 
 .textSpan {
     font-weight: 400;
-        font-size: 14px;
-        color: #000;
-        font-family: 'Lora', serif;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Lora', serif;
 }
 
 .listInList-terms {
@@ -85,16 +84,16 @@ gap: 16px;
     display: flex;
     margin-top: 10px;
     font-weight: 400;
-        font-size: 14px;
-        text-decoration: underline;
-        text-decoration-skip-ink: none;
-        color: #000;
-            font-family: 'Lora', serif;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #000;
+    font-family: 'Lora', serif;
 }
 
 .linkInPolicy-terms {
     display: flex;
-font-weight: 400;
+    font-weight: 400;
     font-size: 14px;
     text-decoration: underline;
     text-decoration-skip-ink: none;
@@ -106,4 +105,91 @@ font-weight: 400;
 .termsItems p:last-of-type {
     margin-top: 10px;
     padding-left: 0;
+}
+
+//// Desktop// Desktop Desktop// Desktop// Desktop// Desktop// Desktop
+@media screen and (min-width:1200px) {
+    .policy-wrapper {
+        padding-right: 228px;
+    }
+
+    .svgArrow {
+        width: 34px;
+        height: 32px;
+    }
+
+    .linkInTerms {
+        font-size: 24px;
+    }
+
+    .headOfTerms {
+        gap: 46px;
+        margin-bottom: 89px;
+    }
+
+    .termsTitle {
+        font-size: 32px;
+    }
+
+    .termsText {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .policyItems {
+        font-size: 32px;
+    }
+
+    .itemsInPolicyList {
+        font-size: 20px;
+    }
+
+    .itemsInPolicyList:last-child {
+        margin-bottom: 0;
+    }
+
+    .textInList-policy {
+        font-size: 20px;
+        margin: 20px 0 40px 0;
+    }
+
+    .linkInPolicy-terms.Policy {
+        font-size: 20px;
+    }
+
+    .textInList-policy.Rights {
+        margin: 0 0 40px 0;
+    }
+
+    .mailtoTerms.Policy {
+        font-size: 20px;
+    }
+
+    .termsList {
+        gap: 40px;
+    }
+
+    .textInItems-terms {
+        font-size: 20px;
+    }
+
+    .mailtoTerms {
+        font-size: 20px;
+    }
+
+    .textSpan {
+        font-size: 20px;
+    }
+
+    .linkInPolicy-terms {
+        font-size: 20px;
+    }
+
+    .textInItems-terms {
+        margin: 20px 0 0;
+    }
+
+    .termsItems p:last-of-type {
+        margin-top: 20px;
+    }
 }

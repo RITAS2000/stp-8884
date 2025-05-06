@@ -1,8 +1,84 @@
 .linkInCookies {
     text-decoration: underline;
 }
+
 .listIsPolicyList.Cookies {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+//// Desktop// Desktop Desktop// Desktop// Desktop// Desktop// Desktop
+@media screen and (min-width:1200px) {
+    .policy-wrapper {
+        padding-right: 228px;
+    }
+
+    .svgArrow {
+        width: 34px;
+        height: 32px;
+    }
+
+    .linkInTerms {
+        font-size: 24px;
+    }
+
+    .headOfTerms {
+        gap: 46px;
+        margin-bottom: 89px;
+    }
+
+    .termsTitle {
+        font-size: 32px;
+    }
+
+    .termsText {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .policyItems {
+        font-size: 32px;
+    }
+
+    .itemsInPolicyList {
+        font-size: 20px;
+    }
+
+    .itemsInPolicyList:last-child {
+        margin-bottom: 40px;
+    }
+
+    .textInList-policy {
+        font-size: 20px;
+        margin: 20px 0 40px 0;
+    }
+
+    .linkInPolicy-terms.Policy {
+        font-size: 20px;
+    }
+
+    .textInList-policy.Rights {
+        margin: 0 0 40px 0;
+    }
+
+    .mailtoTerms.Policy {
+        font-size: 20px;
+    }
+
+    .termsList {
+        gap: 40px;
+    }
+
+    .itemsInPolicyList:last-child {
+        margin-bottom: 0;
+    }
+
+    .termsItems {
+        font-size: 32px;
+    }
+
+    .textInItems-terms {
+        font-size: 20px;
+    }
 }
