@@ -18,6 +18,13 @@ justify-content: center;
 align-items: center;
 }
 
+.wrapperForTrailerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .watchText {
     padding-left: 16px;
 font-style: italic;
@@ -26,12 +33,7 @@ font-style: italic;
     color: #fff;
     font-family: 'Lora', serif;
 }
-.wrapperForTrailerImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
+
 #videoModal {
     display: none;
 }
