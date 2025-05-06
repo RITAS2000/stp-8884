@@ -17,10 +17,11 @@
 //   accept.addEventListener('click', () => hideModal('accepted'));
 //   decline.addEventListener('click', () => hideModal('declined'));
 // });
-const modal = document.getElementById('cookieModal');
-const acceptBtn = document.getElementById('acceptCookies');
-const declineBtn = document.getElementById('declineCookies');
+
 window.addEventListener('DOMContentLoaded', () => {
+  const modal = document.getElementById('cookieModal');
+  const acceptBtn = document.getElementById('acceptCookies');
+  const declineBtn = document.getElementById('declineCookies');
   const consent = localStorage.getItem('buttonClicked');
 
   if (!consent) {
