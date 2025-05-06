@@ -141,17 +141,27 @@ li.faq-item {
 }
 
 .is-active .faq-title {
-  animation: pulseScaleColor 2s ease-in-out infinite;
+  animation: starColorShift 3s linear infinite;
 }
 
-@keyframes pulseScaleColor {
-
-  0%,
-  100% {
-    color: #fff;
+@keyframes starColorShift {
+  0% {
+    color: #ffffff;
+    /* білий */
   }
 
-  50% {
-    color: rgba(65, 235, 79, 0.9);
+  30% {
+    color: #fff59e;
+    /* світло-жовтий */
+  }
+
+  70% {
+    color: #f5df65;
+    /* золотий */
+  }
+
+  100% {
+    color: #ffffff;
+    /* назад до білого */
   }
 }
