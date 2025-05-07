@@ -82,8 +82,10 @@ header {
   background: rgba(0, 0, 0, 0.53);
   z-index: 9999;
   height: 100%;
-  display: flex;
-  justify-content: flex-end;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  
 }
 .cookieContent {
   position: absolute;
@@ -192,8 +194,6 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
-    visibility: hidden;
-    opacity: 0;
     z-index: 10000;
     background: rgba(24, 56, 95, 1)
   }
