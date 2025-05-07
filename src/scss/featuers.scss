@@ -70,7 +70,7 @@
         box-shadow: 1px 2px 8px 6px #f8f8f8;
         background: #214A7D;
         border-radius: 16px;
-        gap: 10px
+        gap: 6px
     }
     .fue-text-continer {
         display: flex;
@@ -82,7 +82,7 @@
     }
         .featuresItems:not(:last-child) {
             border-bottom: 1px solid #fff;
-            padding-bottom: 10px;
+            padding-bottom: 5px;
         }
 
 }

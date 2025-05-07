@@ -2,20 +2,20 @@
     cursor: pointer;
 }
 .watch-title {
-    margin-top: 85px;
     margin-bottom: 29px;
     font-style: italic;
-        font-weight: 500;
-        font-size: 20px;
-        color: #fff;
-        font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Lora', serif;
 }
 
 .watch-wrapper {
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 16px 40px 16px;
 }
 
 .wrapperForTrailerImg {
@@ -26,8 +26,7 @@ align-items: center;
 }
 
 .watchText {
-    padding-left: 16px;
-font-style: italic;
+    font-style: italic;
     font-weight: 600;
     font-size: 14px;
     color: #fff;
@@ -55,18 +54,17 @@ position: relative;
 //// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop Desktop
  @media screen and (min-width: 1200px) {
     .watch-title {
-        margin-top: 120px;
         margin-bottom: 40px;
-font-size: 24px;
+        font-size: 24px;
         }
     .watchText {
         display: flex;
-font-size: 32px;
+        font-size: 32px;
     }
     .wrapperForDesktop {
         max-width: 936px;
     }
     .watch-wrapper {
-        padding-bottom: 60px;
+        padding: 120px 132px 60px 132px;
     }
  }

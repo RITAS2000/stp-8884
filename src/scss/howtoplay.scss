@@ -26,9 +26,10 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
+    gap: 2px;
     flex-direction: column;
     align-items: center;
-    height: 92px;
+    height: 84px;
     width: 137px;
     color: white;
 }
@@ -45,12 +46,15 @@
     max-width: 100px;
     font-weight: 400;
     font-size: 10px;
+    line-height: 1.1;
     text-align: center;
     color: #fff;
     width: 106px;
 
 }
-
+.number-size {
+    font-size: 20px;
+}
 // Desktop// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop
 
 @media screen and (min-width: 1200px) {
@@ -58,11 +62,12 @@
     .HTP-wrapper {
             padding: 120px 47px 0 47px;
         }
-    .HOW TO PLAY {
-        font-size: 32px;
-        margin: 75px 0 40px 0;
-    }
-
+   .HTP-title {
+       
+       margin-bottom: 40px;
+       font-size: 32px;
+       color: white;
+   }
     .HTP-list {
         gap: 25px;
         // grid-template-columns: repeat(3, 1fr)
@@ -109,6 +114,9 @@
     .brInHTP {
         display: none;
     }
+        .number-size {
+            font-size: 40px;
+        }
 }
 .HTP-items span {
     display: inline-block;
