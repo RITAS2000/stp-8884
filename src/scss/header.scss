@@ -1,104 +1,102 @@
 header {
-  background-color: rgba(33, 74, 125, 1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 4px 6px rgb(13, 77, 156), 0 4px 8px #f8f8f6;
+    background-color: rgba(33, 74, 125, 1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgb(13, 77, 156), 0 4px 8px #f8f8f6;
 }
 
 .headerList {
-  display: none;
+    display: none;
 }
 
 .header-wrapper {
-  padding: 11px 17px 16px 12px;
-
-  display: flex;
+    padding: 11px 17px 16px 12px;
+    display: flex;
 }
 
 .btnBurger {
-  border: none;
-  background: none;
-  margin-left: auto;
+    border: none;
+    background: none;
+    margin-left: auto;
 }
 
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .modalContent {
-  display: flex;
-  flex-direction: column;
-  background: rgba(24, 56, 95, 1);
-  width: 100%;
-  height: 100%;
-  align-items: center;
-
+    display: flex;
+    flex-direction: column;
+    background: rgba(24, 56, 95, 1);
+    width: 100%;
+    height: 100%;
+    align-items: center;
 }
 
 .wrapperInBurger {
-  display: flex;
-  flex-direction: column;
-  width: 320px;
-  padding: 0 32px 0 16px;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 0 32px 0 16px;
+    position: relative;
 }
 
 .close {
-  position: absolute;
-  top: 22px;
-  right: 32px;
-  background: none;
-  border: none;
-  cursor: pointer;
+    position: absolute;
+    top: 22px;
+    right: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .listModal {
-  margin-top: 88px;
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
 }
 
 .modalLink {
-  font-weight: 400;
-  font-size: 20px;
-  color: #fff;
-  font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Lora', serif;
 }
 // Cookie modal// Cookie modal// Cookie modal// Cookie modal// Cookie modal// Cookie modal
 
 #cookieModal {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.53);
-  z-index: 9999;
-  height: 100%;
-  visibility: hidden;
-  opacity: 0;
-  display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.53);
+    z-index: 9999;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
   
 }
 .cookieContent {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-top: auto;
-  width: 100%;
-  height: 386px;
-  background-color: #183B66;
-  padding: 17px 17px 53px 17px;
-  box-shadow: 0 -4px 6px rgb(13, 77, 156), 0 -4px 8px #f8f8f6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+    width: 100%;
+    height: 386px;
+    background-color: #183B66;
+    padding: 17px 17px 53px 17px;
+    box-shadow: 0 -4px 6px rgb(13, 77, 156), 0 -4px 8px #f8f8f6;
 }
 .cooki-text-new{
-  width: 288px;
-  margin: 0 auto;
+    width: 288px;
+    margin: 0 auto;
 }
 
 .cookiesPolicy {

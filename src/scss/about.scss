@@ -30,20 +30,19 @@
 // Desktop// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop
 @media screen and (min-width: 1200px) {
     .aboutTheGame-wrapper {
-            display: flex;
-            flex-direction: column;
-            padding: 120px 37px 0 37px;
-            justify-content: center;
-            align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 120px 37px 0 37px;
+        justify-content: center;
+        align-items: center;
         }
 
-.abotIMG {
-    width: 551px;
-    height: 339px;
-    margin-bottom: 0px;
-}
-.about-Title {
-
+    .abotIMG {
+        width: 551px;
+        height: 339px;
+        margin-bottom: 0px;
+    }
+    .about-Title {
         margin-bottom: 60px;
         font-size: 32px;
     }

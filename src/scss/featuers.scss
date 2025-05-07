@@ -10,8 +10,8 @@
     padding: 80px 17px 0 17px;
 }
 
- .spanTitle {
-     animation: starColorShift 3s linear infinite;
+.spanTitle {
+    animation: starColorShift 3s linear infinite;
  }
 .featuresList {
     display: flex;
@@ -78,36 +78,29 @@
         
     }
    
-      
-    
-        .featuresItems {
-            gap: 73px;
-        }
-        .featuresItems:not(:last-child) {
-            border-bottom: 1px solid #fff;
-            padding-bottom: 5px;
-        }
-
+    .featuresItems {
+        gap: 73px;
+    }
+    .featuresItems:not(:last-child) {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 5px;
+    }
 }
 
   @keyframes starColorShift {
       0% {
           color: #ffffff;
-          /* білий */
       }
 
       30% {
           color: #fff59e;
-          /* світло-жовтий */
       }
 
       70% {
           color: #f5df65;
-          /* золотий */
       }
 
       100% {
           color: #ffffff;
-          /* назад до білого */
       }
     }

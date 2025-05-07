@@ -1,31 +1,31 @@
 #faq {
-  padding-top: 40px;
-  padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 @media screen and (min-width:1200px) {
-  #faq {
-      padding-top: 60px;
-      padding-bottom: 60px;
+    #faq {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
 .faq-title-small {
-  font-family: "Cinzel", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 36px;
+    font-family: "Cinzel", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 36px;
 }
 .faq-title-big {
-  display: none;
+    display: none;
 }
 @media screen and (min-width:1200px) {
-.faq-title-small {
-    display: none;
+    .faq-title-small {
+        display: none;
   }
     .faq-title-big {
-      display: block;
-      font-family: "Cinzel", sans-serif;
+        display: block;
+        font-family: "Cinzel", sans-serif;
         font-weight: 700;
         font-size: 32px;
         color: #fff;
@@ -34,103 +34,102 @@
     }
 }
 .faq-items {
-  width: 291px;
-  margin: 0 14px 0 15px;  
+    width: 291px;
+    margin: 0 14px 0 15px;  
   
 }
 @media screen and (min-width:1200px) {
-.faq-items {
-    width: 840px;
-    margin: 0 180px;
-  }
+    .faq-items {
+        width: 840px;
+        margin: 0 180px;
+    }
 }
 li.faq-item {
-  width: 291px;
-  border-top: 2px solid #ffd700;
-  padding: 16px 0 14px 0;
-  margin-bottom: 0;
-  background-color: transparent;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 8px;
+    width: 291px;
+    border-top: 2px solid #ffd700;
+    padding: 16px 0 14px 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 8px;
 }
 @media screen and (min-width:1200px) {
-  li.faq-item {
-      width: 840px;
-      padding: 16px 0 20px 0;
+    li.faq-item {
+        width: 840px;
+        padding: 16px 0 20px 0;
     }
 }
 
 .faq-icon-down{
-  position: absolute;
-  top: -10px;
-  right: -9px;
-  transform: rotate(270deg);
-  width: 20px;
-  height: 22px;
+    position: absolute;
+    top: -10px;
+    right: -9px;
+    transform: rotate(270deg);
+    width: 20px;
+    height: 22px;
 }
 @media screen and (min-width:1200px) {
-  .faq-icon-down {
-    width: 30px;
-    height: 34px;
+    .faq-icon-down {
+        width: 30px;
+        height: 34px;
     }
 }
 .is-active .faq-icon-down {
-  transform: rotate(90deg);
-  top:0px;
-  right: -1px;
+    transform: rotate(90deg);
+    top:0px;
+    right: -1px;
 }
 .faq-button {
-  position: relative;
-  background: transparent;
-  border: none;
-  width: 20px;
-  height: 20px;
-  margin-right: 16.92px;
+    position: relative;
+    background: transparent;
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 16.92px;
 }
 @media screen and (min-width:1200px) {
-  .is-active .faq-icon-down {
-      right: 3px;
+    .is-active .faq-icon-down {
+        right: 3px;
     }
 }
 @media screen and (min-width:1200px) {
-  .faq-button {
-    width: 30px;
-    height: 30px;
-    margin-right: 23.19px;
-  }
+    .faq-button {
+        width: 30px;
+        height: 30px;
+        margin-right: 23.19px;
+    }
 }
 .faq-title-container {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
- .faq-text {
-  font-family: "Lora", sans-serif;
-  font-weight: 400;
-  font-size: 10px;
-  color: #000;
-  padding: 10px 9px 10px 9px;
-  background: #A2D5F2;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+.faq-text {
+    font-family: "Lora", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #000;
+    padding: 10px 9px 10px 9px;
+    background: #A2D5F2;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 @media screen and (min-width:1200px) {
-  .faq-text {
-      font-size: 20px;
-      padding: 22px 10px 26px 10px;
-    
+    .faq-text {
+        font-size: 20px;
+        padding: 22px 10px 26px 10px;
     }
   }
 
 .faq-title {
-  font-family: "Lora", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 16px;
-  margin-left: 10px;
+    font-family: "Lora", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-left: 10px;
 }
 
 @media screen and (min-width:1200px) {
@@ -141,27 +140,23 @@ li.faq-item {
 }
 
 .is-active .faq-title {
-  animation: starColorShift 3s linear infinite;
+    animation: starColorShift 3s linear infinite;
 }
 
 @keyframes starColorShift {
   0% {
     color: #ffffff;
-    /* білий */
   }
 
   30% {
     color: #fff59e;
-    /* світло-жовтий */
   }
 
   70% {
     color: #f5df65;
-    /* золотий */
   }
 
   100% {
     color: #ffffff;
-    /* назад до білого */
   }
 }

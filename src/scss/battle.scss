@@ -4,8 +4,8 @@
 }
 @media screen and (min-width:1200px) {
     #battle {
-            padding-top: 60px;
-            padding-bottom: 124px;
+        padding-top: 60px;
+        padding-bottom: 124px;
         }
 }
 .battle-title {
@@ -85,17 +85,17 @@
     opacity: 1;
 }
 @media screen and (min-width:1200px) {
-.battle-girl {
+    .battle-girl {
         position: absolute;
         top: -286px;
         left: 68px;
         width: 339px;
     }
 
-        .battle-girl[data-show="true"] {
-            top: -186px;
-            opacity: 1;
-        }
+    .battle-girl[data-show="true"] {
+        top: -186px;
+        opacity: 1;
+    }
 }
 .battle-vs {
     position: relative;
@@ -105,11 +105,11 @@
 }
 @media screen and (min-width:1200px) {
     .battle-vs {
-            position: relative;
-            width: 188px;
-            height: 208px;
-            margin-left: 10px;
-            margin-top: 100px;
+        position: relative;
+        width: 188px;
+        height: 208px;
+        margin-left: 10px;
+        margin-top: 100px;
         }
 }
 .battle-pink {
@@ -155,10 +155,10 @@
         top: -330px;
         width: 421px;
     }
-         .battle-boy[data-show="true"] {
-             top: -230px;
-             opacity: 1;
-         }
+    .battle-boy[data-show="true"] {
+        top: -230px;
+        opacity: 1;
+    }
 }
 
 
@@ -172,9 +172,9 @@
 @media screen and (min-width:1200px) {
     .battle-v-position {
         width: 50px;
-            top: 0;
-            left: 30px;
-        }
+        top: 0;
+        left: 30px;
+    }
 }
 .battle-l-position {
     position: absolute;
@@ -194,7 +194,7 @@
     left: 16px;
 }
 @media screen and (min-width:1200px) {
-.battle-b-position {
+    .battle-b-position {
         top: 15px;
         left: 45px;
         width: 90px;
@@ -207,10 +207,10 @@
 }
 @media screen and (min-width:1200px) {
     .battle-s-position {
-            bottom: 10px;
-            right: 60px;
-            width: 24px;
-        }
+        bottom: 10px;
+        right: 60px;
+        width: 24px;
+    }
 }
 .battle-link {
     display: block;
@@ -222,12 +222,12 @@
     
 }
 .battle-link:hover,
- .battle-link:focus {
+.battle-link:focus {
     box-shadow: 0 0 10px 2px rgba(255, 255, 255, 1);
     transform: scale(1.02);
 }
 @media screen and (min-width:1200px) {
-.battle-link {
+    .battle-link {
         width: 295px;
         height: 85px;
         margin-left: 453px;
