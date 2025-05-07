@@ -79,7 +79,7 @@
     }
    
         .featuresItems:nth-child(odd) {
-            gap: 38px;
+            justify-content: space-between;
             width: 744px;
         }
     
