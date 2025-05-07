@@ -1,13 +1,13 @@
 .features-title {
     display: flex;
     justify-content: center;
-    margin: 80px 0 36px 0;
+    margin-bottom: 36px;
     color: white;
     font-family: 'Cinzel', serif;
 }
 
 .features-wrapper {
-    padding: 0 17px;
+    padding: 80px 17px 0 17px;
 }
 
  .spanTitle {
@@ -48,11 +48,11 @@
 // Desktop// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop
 @media screen and (min-width: 1200px) {
     .features-wrapper{
-        padding: 0;
+        padding: 120px 103px 0 103px;
     }
     .features-title {
         font-size: 32px;
-        margin: 100px 0 60px 0
+        margin-bottom: 60px;
     }
     .BR {
         display: none;
@@ -66,9 +66,6 @@
         width: 552px;
     }
     .featuresList {
-
-        margin-left: 132px;
-        margin-right: 132px;
         padding: 31px 103px;
         box-shadow: 1px 2px 8px 6px #f8f8f8;
         background: #214A7D;

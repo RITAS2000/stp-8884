@@ -1,7 +1,7 @@
 .aboutTheGame-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 0 17px;
+    padding: 80px 17px 0 17px;
     justify-content: center;
     align-items: center;
 }
@@ -9,7 +9,7 @@
 .about-Title {
     font-family: 'Cinzel', serif;
     display: flex;
-    margin: 80px 0 36px;
+    margin-bottom: 36px;
     font-weight: 700;
     font-size: 20px;
     color: white;
@@ -29,14 +29,22 @@
 
 // Desktop// Desktop// Desktop// Desktop// Desktop// Desktop// Desktop
 @media screen and (min-width: 1200px) {
+    .aboutTheGame-wrapper {
+            display: flex;
+            flex-direction: column;
+            padding: 120px 37px 0 37px;
+            justify-content: center;
+            align-items: center;
+        }
 
 .abotIMG {
     width: 551px;
     height: 339px;
+    margin-bottom: 0px;
 }
 .about-Title {
 
-        margin: 120px 0 60px;
+        margin-bottom: 60px;
         font-size: 32px;
     }
 
