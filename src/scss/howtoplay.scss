@@ -41,7 +41,6 @@
 }
 
 .HTP-text {
-    margin-top: 4px;
     font-family: 'Lora', serif;
     max-width: 100px;
     font-weight: 400;
@@ -78,9 +77,10 @@
 
     .HTP-items {
         background-image: url(/img/HowToPlay/cloudDesktop.png);
-            background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        gap: 16px;
         height: auto;
         font-weight: 400;
         font-size: 40px;
@@ -105,7 +105,6 @@
     }
 
     .HTP-text {
-        margin-top: 14px;
         font-size: 20px;
         min-width: 298px;
 
