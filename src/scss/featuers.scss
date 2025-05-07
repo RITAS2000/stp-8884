@@ -78,12 +78,9 @@
         
     }
    
-        .featuresItems:nth-child(odd) {
-            justify-content: space-between;
-            width: 744px;
-        }
+      
     
-        .featuresItems:nth-child(even) {
+        .featuresItems {
             gap: 73px;
         }
         .featuresItems:not(:last-child) {
