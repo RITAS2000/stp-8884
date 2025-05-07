@@ -75,11 +75,16 @@
     .fue-text-continer {
         display: flex;
         align-items: center;
-        padding-left: 25px;
+        
     }
-    .featuresItems {
-        gap: 38px;
-    }
+   
+        .featuresItems:nth-child(odd) {
+            gap: 38px;
+        }
+    
+        .featuresItems:nth-child(even) {
+            gap: 73px;
+        }
         .featuresItems:not(:last-child) {
             border-bottom: 1px solid #fff;
             padding-bottom: 5px;
