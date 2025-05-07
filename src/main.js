@@ -6,3 +6,4 @@ import './js/modal.js';
 import './js/popup.js';
 import './js/reviwes.js';
 import './js/stars.js';
+import './js/howtoplay,js';

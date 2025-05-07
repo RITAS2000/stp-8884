@@ -1,0 +1,19 @@
+const howItems = document.querySelectorAll('[data-htp="item"]');
+const section = document.querySelector('#HTP');
+
+const observer = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        howItems.forEach((item, index) => {
+          setTimeout(() => {
+            item.setAttribute('data-scale', 'true');
+          }, index * 500);
+        });
+        observer.disconnect();
+      }
+    });
+  },
+  { threshold: 0.3 }
+);
+observer.observe(section);

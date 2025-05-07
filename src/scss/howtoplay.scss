@@ -32,13 +32,21 @@
     height: 84px;
     width: 137px;
     color: white;
+    opacity: 0;
+    transform: scale(0.5) translateX(100%);
+    transition: opacity 3s ease, transform 1s ease ;
 }
 
-
+[data-scale="true"] {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+}
 .HTP-items:last-child {
     position: relative;
     left: 70px;
 }
+
+
 
 .HTP-text {
     font-family: 'Lora', serif;
